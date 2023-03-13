@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2982098430
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: testfolder/enemy 0.png.ab
+      Dependencies: {}
+    Info_1:
+      Name: testfolder/enemy 1.png.ab
+      Dependencies: {}
+    Info_2:
+      Name: testfolder/enemy 2.png.ab
+      Dependencies: {}
+    Info_3:
+      Name: testfolder/enemy 3.png.ab
+      Dependencies: {}
+    Info_4:
+      Name: testfolder/enemy 4.png.ab
+      Dependencies: {}
