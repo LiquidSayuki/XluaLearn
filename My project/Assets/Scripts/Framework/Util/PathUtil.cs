@@ -13,6 +13,12 @@ public class PathUtil
     // Bundle output path
     public static readonly string BundleOutPath = Application.streamingAssetsPath;
 
+    //Bundle resources path
+    public static string BundleResourcesPath
+    {
+        get { return Application.streamingAssetsPath; }
+    }
+
     /// <summary>
     ///  获取unity相对路径
     /// </summary>

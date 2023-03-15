@@ -1,19 +1,51 @@
 ManifestFileVersion: 0
-CRC: 2982098430
+CRC: 283697601
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: testfolder/enemy 0.png.ab
-      Dependencies: {}
+      Name: ui/enter.prefab.ab
+      Dependencies:
+        Dependency_0: ui/sprites/room.png.ab
+        Dependency_1: ui/sprites/ui.png.ab
+        Dependency_2: ui/sprites/player/farmer 0.png.ab
+        Dependency_3: ui/sprites/player/farmer 1.png.ab
+        Dependency_4: ui/sprites/tiles/tiles.png.ab
     Info_1:
-      Name: testfolder/enemy 1.png.ab
+      Name: ui/sprites/props.png.ab
       Dependencies: {}
     Info_2:
-      Name: testfolder/enemy 2.png.ab
+      Name: ui/sprites/room.png.ab
       Dependencies: {}
     Info_3:
-      Name: testfolder/enemy 3.png.ab
+      Name: ui/sprites/ui.png.ab
       Dependencies: {}
     Info_4:
-      Name: testfolder/enemy 4.png.ab
+      Name: ui/sprites/enemy/enemy 0.png.ab
+      Dependencies: {}
+    Info_5:
+      Name: ui/sprites/enemy/enemy 1.png.ab
+      Dependencies: {}
+    Info_6:
+      Name: ui/sprites/enemy/enemy 2.png.ab
+      Dependencies: {}
+    Info_7:
+      Name: ui/sprites/enemy/enemy 3.png.ab
+      Dependencies: {}
+    Info_8:
+      Name: ui/sprites/enemy/enemy 4.png.ab
+      Dependencies: {}
+    Info_9:
+      Name: ui/sprites/player/farmer 0.png.ab
+      Dependencies: {}
+    Info_10:
+      Name: ui/sprites/player/farmer 1.png.ab
+      Dependencies: {}
+    Info_11:
+      Name: ui/sprites/player/farmer 2.png.ab
+      Dependencies: {}
+    Info_12:
+      Name: ui/sprites/player/farmer 3.png.ab
+      Dependencies: {}
+    Info_13:
+      Name: ui/sprites/tiles/tiles.png.ab
       Dependencies: {}
