@@ -1,0 +1,84 @@
+ManifestFileVersion: 0
+CRC: 4284873508
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: sprite/props.png.ab
+      Dependencies: {}
+    Info_1:
+      Name: sprite/room.png.ab
+      Dependencies: {}
+    Info_2:
+      Name: sprite/ui.png.ab
+      Dependencies: {}
+    Info_3:
+      Name: audio/sound/dead.wav.ab
+      Dependencies: {}
+    Info_4:
+      Name: audio/sound/hit0.wav.ab
+      Dependencies: {}
+    Info_5:
+      Name: audio/sound/hit1.wav.ab
+      Dependencies: {}
+    Info_6:
+      Name: audio/sound/levelup.wav.ab
+      Dependencies: {}
+    Info_7:
+      Name: audio/sound/lose.wav.ab
+      Dependencies: {}
+    Info_8:
+      Name: audio/sound/melee0.wav.ab
+      Dependencies: {}
+    Info_9:
+      Name: audio/sound/melee1.wav.ab
+      Dependencies: {}
+    Info_10:
+      Name: audio/sound/range.wav.ab
+      Dependencies: {}
+    Info_11:
+      Name: audio/sound/select.wav.ab
+      Dependencies: {}
+    Info_12:
+      Name: audio/sound/win.wav.ab
+      Dependencies: {}
+    Info_13:
+      Name: sprite/enemy/enemy 0.png.ab
+      Dependencies: {}
+    Info_14:
+      Name: sprite/enemy/enemy 1.png.ab
+      Dependencies: {}
+    Info_15:
+      Name: sprite/enemy/enemy 2.png.ab
+      Dependencies: {}
+    Info_16:
+      Name: sprite/enemy/enemy 3.png.ab
+      Dependencies: {}
+    Info_17:
+      Name: sprite/enemy/enemy 4.png.ab
+      Dependencies: {}
+    Info_18:
+      Name: sprite/player/farmer 0.png.ab
+      Dependencies: {}
+    Info_19:
+      Name: sprite/player/farmer 1.png.ab
+      Dependencies: {}
+    Info_20:
+      Name: sprite/player/farmer 2.png.ab
+      Dependencies: {}
+    Info_21:
+      Name: sprite/player/farmer 3.png.ab
+      Dependencies: {}
+    Info_22:
+      Name: sprite/tiles/tiles.png.ab
+      Dependencies: {}
+    Info_23:
+      Name: ui/prefabs/tmptest.prefab.ab
+      Dependencies: {}
+    Info_24:
+      Name: ui/prefabs/enter/enterui.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/room.png.ab
+        Dependency_1: sprite/ui.png.ab
+        Dependency_2: sprite/player/farmer 0.png.ab
+        Dependency_3: sprite/player/farmer 1.png.ab
+        Dependency_4: sprite/tiles/tiles.png.ab

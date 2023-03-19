@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2038757570
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f7fd612e63cc5c2e30b0cde51a1fb0aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Audio/Sound/Dead.wav
+Dependencies: []

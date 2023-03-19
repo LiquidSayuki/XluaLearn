@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 492829708
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 686c233e05e57085a1ddf6ffe64cbf48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Audio/Sound/Melee1.wav
+Dependencies: []

@@ -47,14 +47,17 @@ namespace XLuaTest
             scriptEnv.SetMetaTable(meta);
             meta.Dispose();
 
+            // lua变量"self" 映射 c# this
             scriptEnv.Set("self", this);
             foreach (var injection in injections)
             {
                 scriptEnv.Set(injection.name, injection.value);
             }
 
+            // 将LuaTestScript绑定到刚才的scriptEnv表
             luaEnv.DoString(luaScript.text, "LuaTestScript", scriptEnv);
 
+            //查找lua方法
             Action luaAwake = scriptEnv.Get<Action>("awake");
             scriptEnv.Get("start", out luaStart);
             scriptEnv.Get("update", out luaUpdate);

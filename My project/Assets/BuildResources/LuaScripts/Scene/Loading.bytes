@@ -1,0 +1,25 @@
+function Init()
+	print("Loading scene init")
+end
+
+function OnActive()
+	print("Lua loading scene ONACTIVE")
+end
+
+function OnDeactive()
+	print("OnDeactive")
+end
+
+function OnEnter()
+	print("lua loading secne ENTER")
+	Manager.Scene:ChangeScene("MainScene","Scene.MainScene")
+	--Manager.Scene:SetActive(self.SceneName)
+end
+
+function OnQuit()
+	print("OnQuit")
+end
+
+function Update()
+
+end

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1861908264
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b4fffd5ab773a7d13eb6de5449accd5c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e0d404a68f67b148edfad1f0ecd29fe
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/PlayerStand.anim
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/player/farmer
+  1.png.ab

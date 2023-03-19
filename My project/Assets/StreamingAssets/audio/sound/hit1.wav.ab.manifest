@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2943181920
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f0c0393b5f9b56ea4b9353846e75faa7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Audio/Sound/Hit1.wav
+Dependencies: []

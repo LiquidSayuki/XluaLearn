@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3509858793
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fbbcab1e414a8148e69daafcd43f59b9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c2433b5883c360c56544ccca97da0186
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Prefabs/Player.prefab
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/player.controller.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/player/farmer
+  1.png.ab

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1314515286
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 757741ad88169094efa19e0c7a105544
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 75b56a7360e8eda467ffda5c4583dbd6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Scene/Loading.unity
+Dependencies: []

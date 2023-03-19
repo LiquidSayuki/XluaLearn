@@ -1,0 +1,53 @@
+function Init()
+	print("init")
+end
+
+function Update()
+end
+
+function OnOpen()
+	print("TestUI OnOpen")
+
+	local btn_play_music = self.transform:Find("btn_play_music"):GetComponent("Button")
+	print("PlayMusic find")
+	local btn_pause_music = self.transform:Find("btn_pause_music"):GetComponent("Button")
+	print("PauseMusic find")
+	local btn_unpause_music = self.transform:Find("btn_unpause_music"):GetComponent("Button")
+	print("Unpause find")
+	local btn_stop_music = self.transform:Find("btn_stop_music"):GetComponent("Button")
+	print("StopMusic find")
+	local btn_play_sound = self.transform:Find("btn_play_sound"):GetComponent("Button")
+	print("PlaySound find")
+	local slider_music_volume = self.transform:Find("slider_music_volume"):GetComponent("Slider")
+	print("Volume find")
+
+	btn_play_music:OnClickSet(
+		function()
+			Manager.Sound:PlayMusic("dayu.mp3")
+		end
+	)
+
+	btn_stop_music:OnClickSet(
+		function()
+			Manager.Sound:StopMusic()
+		end
+	)
+
+	btn_play_sound:OnClickSet(
+		function()
+			Manager.Sound:PlaySound("Dead.wav")
+		end
+
+	)
+	slider_music_volume:OnValueChangedSet(
+		function(volume)
+			Manager.Sound:SetMusicVolume(volume)
+		end
+	)
+	--slider_music_volume.value = 1
+	--Manager.Scene:LoadScene("Loading","Scene.Loading")
+end
+
+function OnClose()
+	print("OnClose")
+end

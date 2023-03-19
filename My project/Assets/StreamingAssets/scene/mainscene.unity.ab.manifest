@@ -1,0 +1,107 @@
+ManifestFileVersion: 0
+CRC: 2388197856
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fcaebe73092a1a4674ba0c7f6b24b75d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fd9e002dc56cd999ea33669dd096518c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 66
+  Script: {instanceID: 0}
+- Class: 70
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c2812a0aec836234aaa4fe9ee6bce007, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a17fc5ac66d16044d8819f05a522d562, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 410eed91f89ff754495631dae324166b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 19719996
+  Script: {instanceID: 0}
+- Class: 156049354
+  Script: {instanceID: 0}
+- Class: 483693784
+  Script: {instanceID: 0}
+- Class: 1839735485
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Scene/MainScene.unity
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  0.png.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  1.png.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  2.png.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  3.png.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  4.png.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/tiles/randomtile2.asset.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/tiles/tiles.png.ab

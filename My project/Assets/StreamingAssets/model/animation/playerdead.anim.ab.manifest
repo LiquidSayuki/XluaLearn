@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 2087434371
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9da33daa8193a27a2740e9a1d546dc3e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e0d404a68f67b148edfad1f0ecd29fe
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/PlayerDead.anim
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/player/farmer
+  1.png.ab

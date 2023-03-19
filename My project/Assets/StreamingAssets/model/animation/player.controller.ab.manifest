@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 310999282
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b11ce6851b3bc9838cf7c0f17c4b645c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/Player.controller
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/playerdead.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/playermove.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/playerstand.anim.ab

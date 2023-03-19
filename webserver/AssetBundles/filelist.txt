@@ -1,0 +1,25 @@
+Assets/BuildResources/Sprite/Props.png|sprite/props.png.ab
+Assets/BuildResources/Sprite/Room.png|sprite/room.png.ab
+Assets/BuildResources/Sprite/UI.png|sprite/ui.png.ab
+Assets/BuildResources/Audio/Sound/Dead.wav|audio/sound/dead.wav.ab
+Assets/BuildResources/Audio/Sound/Hit0.wav|audio/sound/hit0.wav.ab
+Assets/BuildResources/Audio/Sound/Hit1.wav|audio/sound/hit1.wav.ab
+Assets/BuildResources/Audio/Sound/LevelUp.wav|audio/sound/levelup.wav.ab
+Assets/BuildResources/Audio/Sound/Lose.wav|audio/sound/lose.wav.ab
+Assets/BuildResources/Audio/Sound/Melee0.wav|audio/sound/melee0.wav.ab
+Assets/BuildResources/Audio/Sound/Melee1.wav|audio/sound/melee1.wav.ab
+Assets/BuildResources/Audio/Sound/Range.wav|audio/sound/range.wav.ab
+Assets/BuildResources/Audio/Sound/Select.wav|audio/sound/select.wav.ab
+Assets/BuildResources/Audio/Sound/Win.wav|audio/sound/win.wav.ab
+Assets/BuildResources/Sprite/Enemy/Enemy 0.png|sprite/enemy/enemy 0.png.ab
+Assets/BuildResources/Sprite/Enemy/Enemy 1.png|sprite/enemy/enemy 1.png.ab
+Assets/BuildResources/Sprite/Enemy/Enemy 2.png|sprite/enemy/enemy 2.png.ab
+Assets/BuildResources/Sprite/Enemy/Enemy 3.png|sprite/enemy/enemy 3.png.ab
+Assets/BuildResources/Sprite/Enemy/Enemy 4.png|sprite/enemy/enemy 4.png.ab
+Assets/BuildResources/Sprite/Player/Farmer 0.png|sprite/player/farmer 0.png.ab
+Assets/BuildResources/Sprite/Player/Farmer 1.png|sprite/player/farmer 1.png.ab
+Assets/BuildResources/Sprite/Player/Farmer 2.png|sprite/player/farmer 2.png.ab
+Assets/BuildResources/Sprite/Player/Farmer 3.png|sprite/player/farmer 3.png.ab
+Assets/BuildResources/Sprite/Tiles/Tiles.png|sprite/tiles/tiles.png.ab
+Assets/BuildResources/UI/Prefabs/TMPTest.prefab|ui/prefabs/tmptest.prefab.ab|Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd|Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader|Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd|Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset|Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset|Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+Assets/BuildResources/UI/Prefabs/Enter/EnterUI.prefab|ui/prefabs/enter/enterui.prefab.ab|Assets/BuildResources/Sprite/UI.png|Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset|Assets/BuildResources/Sprite/Player/Farmer 1.png|Assets/BuildResources/Sprite/Player/Farmer 0.png|Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd|Assets/BuildResources/Sprite/Tiles/Tiles.png|Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader|Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd|Assets/BuildResources/Sprite/Room.png|Assets/TextMesh Pro/Fonts/Electronic Highway Sign.TTF

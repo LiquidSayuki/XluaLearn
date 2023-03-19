@@ -1,0 +1,18 @@
+function Init()
+end
+
+function Update()
+	if Input.GetKey(KeyCode.W) then
+		self.transform:Translate(Vector3(0,1,0) * Time.deltaTime * 5)
+	end
+	if Input.GetKey(KeyCode.S) then
+		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * 5)
+	end
+end
+
+function OnShow()
+	self.transform.localPosition = Vector3(0,0,0)
+end
+
+function OnHide()
+end

@@ -1,0 +1,31 @@
+Manager = CS.GameManager
+PathUtil = CS.PathUtil
+Vector3 = CS.UnityEngine.Vector3
+Input = CS.UnityEngine.Input
+KeyCode = CS.UnityEngine.KeyCode
+Time = CS.UnityEngine.Time
+
+local ui_group = {
+	"Main",
+	"UI",
+	"Message",
+}
+
+local entity_group = {
+	"Player",
+	"Monster",
+	"Effect"
+}
+
+Manager.UI:SetUIGroup(ui_group)
+Manager.Entity:SetEntityGroup(entity_group)
+
+function Main()
+	-- body
+	print("Hello Main")
+	Manager.UI:Show("Main/MainUI", "UI.LuaTestUI","UI")
+	--Manager.UI:Show("Enter/PopupWindow", "UI.LuaTestUI","UI")
+	--Manager.UI:Show("Enter/PaoMaDeng", "UI.LuaTestUI","Message")
+end
+
+Main()

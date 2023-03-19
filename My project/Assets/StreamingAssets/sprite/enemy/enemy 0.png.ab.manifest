@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3136783312
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b899947979c9863dc89e9106231b539e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Sprite/Enemy/Enemy 0.png
+Dependencies: []

@@ -1,0 +1,17 @@
+function Init()
+end
+
+function Update()
+end
+
+function OnActive()
+end
+
+function OnDeactive()
+end
+
+function OnEnter()
+end
+
+function OnQuit()
+end

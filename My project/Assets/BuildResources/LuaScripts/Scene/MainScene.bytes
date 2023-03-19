@@ -1,0 +1,24 @@
+function Init()
+	print("Main Scene init")
+end
+
+function OnActive()
+	print("Main Scene Active")
+end
+
+function OnDeactive()
+	print("Main Scene Deactive")
+end
+
+function OnEnter()
+	print("Main Scene Enter")
+	Manager.Entity:Show(PathUtil.GetModelPath("Player"),"Entity.PlayerEntity","Player")
+end
+
+function OnQuit()
+	print("Main Scene Quit")
+end
+
+function Update()
+
+end

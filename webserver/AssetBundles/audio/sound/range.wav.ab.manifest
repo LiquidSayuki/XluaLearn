@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3532417008
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: efb1d7efb40f0207e955c461685c3934
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Audio/Sound/Range.wav
+Dependencies: []

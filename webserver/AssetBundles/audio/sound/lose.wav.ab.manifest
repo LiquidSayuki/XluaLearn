@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2492580168
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e2edf3ff26c93aa6e5de3165d4e26dce
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Audio/Sound/Lose.wav
+Dependencies: []
