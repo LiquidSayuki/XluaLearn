@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class LuaUILogic : LuaBehaviour
 {
+    public string AssetName;
     Action m_LuaOnOpen;
     Action m_LuaOnClose;
     public override void Init(string luaName)
@@ -22,6 +23,7 @@ public class LuaUILogic : LuaBehaviour
     public void OnClose()
     {
         m_LuaOnClose?.Invoke();
+        GameManager.Pool.UnSpawn("UI", AssetName, this.gameObject);
     }
 
     protected override void Clear()

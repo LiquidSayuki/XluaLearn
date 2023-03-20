@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1329621246
+CRC: 629098404
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -155,3 +155,7 @@ AssetBundleManifest:
     Info_43:
       Name: ui/prefabs/main/mainui.prefab.ab
       Dependencies: {}
+    Info_44:
+      Name: ui/prefabs/main/test.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/room.png.ab

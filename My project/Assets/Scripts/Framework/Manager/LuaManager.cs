@@ -21,6 +21,8 @@ namespace manager
         public void Init()
         {
             luaEnv = new LuaEnv();
+            luaEnv.AddBuildin("rapidjson", XLua.LuaDLL.Lua.LoadRapidJson);
+
             luaEnv.AddLoader(Loader);
             m_LuaScripts = new Dictionary<string, byte[]>();
 

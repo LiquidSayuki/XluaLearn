@@ -11,10 +11,10 @@ public class PoolObject
     // 使用时间戳来当LRU的回收机制
     public System.DateTime LastUseTime;
 
-    public PoolObject(Object @object, string name, System.DateTime lastUseTime)
+    public PoolObject(string name, Object @object)
     {
         Object = @object;
         Name = name;
-        LastUseTime = lastUseTime;
+        LastUseTime = System.DateTime.Now;
     }
 }

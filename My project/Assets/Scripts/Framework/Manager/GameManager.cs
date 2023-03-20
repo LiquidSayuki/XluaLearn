@@ -92,6 +92,12 @@ public class GameManager : MonoSingleton<GameManager>
         get { return _event; }
     }
 
+    private static PoolManager _pool;
+    public static PoolManager Pool
+    {
+        get { return _pool; }
+    }
+
     protected override void OnStart()
     {
         AppConst.GameMode = this.GameMode;
@@ -102,6 +108,7 @@ public class GameManager : MonoSingleton<GameManager>
         _scene = MySceneManager.Instance;
         _sound = SoundManager.Instance;
         _event = EventManager.Instance;
+        _pool = PoolManager.Instance;
 
         // Init Resources manager
         Resource.ParseVersionFile();
@@ -118,6 +125,12 @@ public class GameManager : MonoSingleton<GameManager>
     void OnLuaInit(object args)
     {
         Lua.StartLua("LuaMain");
+
+        Pool.CreateGameObjectPool("UI", 10);
+        Pool.CreateGameObjectPool("Monster", 120);
+        Pool.CreateGameObjectPool("Effect", 120);
+        Pool.CreateGameObjectPool("Bullet", 120);
+        Pool.CreateAssetPool("AssetBundle", 10);
     }
 
     private void OnApplicationQuit()

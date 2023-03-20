@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 
 public class UIManager : MonoSingleton<UIManager>
@@ -15,7 +14,7 @@ public class UIManager : MonoSingleton<UIManager>
 
     private Dictionary<Type,UIElement> UIResouces = new Dictionary<Type,UIElement>();
 
-    private Dictionary<string, GameObject> m_UI = new Dictionary<string, GameObject>();
+    //private Dictionary<string, GameObject> m_UI = new Dictionary<string, GameObject>();
 
     // UI分层
     private Dictionary<string, Transform> m_UIGroups = new Dictionary<string, Transform>();
@@ -74,23 +73,30 @@ public class UIManager : MonoSingleton<UIManager>
     public void Show(string uiName, string luaName, string group)
     {
         GameObject go = null;
-        if (m_UI.TryGetValue(uiName, out go))
+
+        string uiPath = PathUtil.GetUIPath(uiName);
+        Transform parent = GetUIGroup(group);
+
+        // 对象池查找对象，如有则直接取出使用
+        UnityEngine.Object uiObj = GameManager.Pool.Spawn("UI", uiPath);
+        if (uiObj != null)
         {
+            go = uiObj as GameObject;
+            go.transform.SetParent(parent, false);
+
             LuaUILogic uiLogic = go.GetComponent<LuaUILogic>();
             uiLogic.OnOpen();
             return;
         }
-
+        //如果没有则新建对象
         GameManager.Resource.LoadUI(uiName, (Action<UnityEngine.Object>)((UnityEngine.Object obj) =>
         {
             go = GameObject.Instantiate(obj) as GameObject;
-            m_UI.Add(uiName, go);
-
-            Transform parent = GetUIGroup(group);
             go.transform.SetParent(parent, false);
 
             // 将UI组件与Lua脚本绑定
             LuaUILogic uiLogic = go.AddComponent<LuaUILogic>();
+            uiLogic.AssetName = uiPath;
             uiLogic.Init(luaName);
             uiLogic.OnOpen();
         }));

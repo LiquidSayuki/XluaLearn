@@ -21,10 +21,26 @@ namespace manager
             public List<string> Dependences;
         }
 
+        internal class BundleData
+        {
+            public AssetBundle Bundle;
+
+            //引用计数
+            public int Count;
+
+            public BundleData (AssetBundle ab)
+            {
+                Bundle = ab;
+                Count = 1;
+            }
+        }
+
+
         private Dictionary<string, BundleInfo> m_BundleInfos = new Dictionary<string, BundleInfo>();
         // 存放已经读取好的Bundle
         // 防止重复读取AssetBundle 报错
-        private Dictionary<string, AssetBundle> m_AssetBundles = new Dictionary<string, AssetBundle>();
+        private Dictionary<string, BundleData> m_AssetBundles = new Dictionary<string, BundleData>();
+
         /// <summary>
         /// 解析版本文件
         /// </summary>
@@ -58,8 +74,6 @@ namespace manager
                     GameManager.Lua.LuaNames.Add(info[0]);
                 }
             }
-
-
         }
 
         /// <summary>
@@ -76,32 +90,53 @@ namespace manager
                 string bundlePath = Path.Combine(PathUtil.BundleResourcesPath, bundleName);
                 List<string> dependences = m_BundleInfos[assetName].Dependences;
 
-                AssetBundle bundle = GetBundle(bundleName);
+                BundleData bundle = GetBundle(bundleName);
                 if (bundle == null)
                 {
-                    if (dependences != null && dependences.Count > 0)
+                    // 查询对象池
+                    UObject obj = GameManager.Pool.Spawn("AssetBundle", bundleName);
+                    if (obj != null)
                     {
-                        for (int i = 0; i < dependences.Count; i++)
-                        {
-                            // 递归加载依赖资源
-                            yield return LoadBundleAsync(dependences[i]);
-                        }
+                        AssetBundle ab = obj as AssetBundle;
+                        bundle = new BundleData(ab);
                     }
-                    AssetBundleCreateRequest request = AssetBundle.LoadFromFileAsync(bundlePath);
-                    yield return request;
-                    bundle = request.assetBundle;
+                    else
+                    {
+                        AssetBundleCreateRequest request = AssetBundle.LoadFromFileAsync(bundlePath);
+                        yield return request;
+                        bundle = new BundleData(request.assetBundle);
+                    }
                     m_AssetBundles.Add(bundleName, bundle);
                 }
+
+                if (dependences != null && dependences.Count > 0)
+                {
+                    for (int i = 0; i < dependences.Count; i++)
+                    {
+                        // 递归加载依赖资源
+                        // 为依赖资源计数引用
+                        yield return LoadBundleAsync(dependences[i]);
+                    }
+                }
+
                 //场景资源使用异步加载资源的方式进行，会报错
                 //但是场景本身加载是在MysceneManager中完成的，并不需要此处加载回调的内容
-                //所以可以在场景的依赖资源都加载完成后，直接回调一个空值
+                //所以可以在场景的依赖资源都加载完成后，直接回调一个空值来加载场景
+                //同时需要退出，以避免在这里加载这个场景资源
                 if (assetName.EndsWith(".unity"))
                 {
                     action?.Invoke(null);
                     yield break;
                 }
 
-                AssetBundleRequest bundleRequest = bundle.LoadAssetAsync(assetName);
+                // action为空，说明本次加载的是一个依赖资源
+                // 则不需要真实的加载这个资源，可以直接退出
+                if(action == null)
+                {
+                    yield break;
+                }
+
+                AssetBundleRequest bundleRequest = bundle.Bundle.LoadAssetAsync(assetName);
                 yield return bundleRequest;
                 Debug.Log("Async Load Asstes");
 
@@ -156,26 +191,70 @@ namespace manager
 
         private void LoadAsset(string assetName, Action<UObject> action)
         {
-            if(AppConst.GameMode == GameMode.EditorMode)
-            {
 #if UNITY_EDITOR
+            if (AppConst.GameMode == GameMode.EditorMode)
+            {
                 EditorLoadAsset(assetName, action);
-#endif
             }
             else
+#endif
             {
                 StartCoroutine(LoadBundleAsync(assetName, action));
             }
         }
 
-        AssetBundle GetBundle(string bundleName)
+        BundleData GetBundle(string bundleName)
         {
-            AssetBundle bundle = null;
+            BundleData bundle = null;
             if (m_AssetBundles.TryGetValue(bundleName, out bundle))
             {
+                bundle.Count++;
                 return bundle;
             }
             return null;
+        }
+
+        /// <summary>
+        /// 减去bundle与其依赖资源的引用计数
+        /// </summary>
+        /// <param name="assetName"></param>
+        public void MinusBundleCount(string assetName)
+        {
+            string bundleName = m_BundleInfos[assetName].BundleName;
+
+            //本身减少引用
+            MinusOneBundleCount(bundleName);
+            // 依赖减少引用
+            List<string> dependencies = m_BundleInfos[assetName].Dependences;
+            if(dependencies != null)
+            {
+                foreach (string dependency in dependencies) 
+                {
+                    if (m_BundleInfos.ContainsKey(dependency))
+                    {
+                        string name = m_BundleInfos[dependency].BundleName;
+                        MinusOneBundleCount(name);
+                    }
+                }
+            }
+        }
+
+        private void MinusOneBundleCount(string bundleName)
+        {
+            if(m_AssetBundles.TryGetValue(bundleName, out BundleData bundle))
+            {
+                if (bundle.Count > 0)
+                {
+                    bundle.Count--;
+                    Debug.Log("bundle:" + bundleName + "Count:" + bundle.Count);
+                }
+                if(bundle.Count <= 0)
+                {
+                    Debug.Log("bundle:" + bundleName + " be stored in pool");
+                    GameManager.Pool.UnSpawn("AssetBundle", bundleName, bundle.Bundle);
+                    m_AssetBundles.Remove(bundleName);
+                }
+            }
         }
 
 #if UNITY_EDITOR
@@ -195,6 +274,12 @@ namespace manager
             action?.Invoke(obj);
         }
 #endif
+
+        public void UnloadBundle(UObject obj)
+        {
+            AssetBundle ab = obj as AssetBundle;
+            ab.Unload(true);
+        }
     }
 }
 

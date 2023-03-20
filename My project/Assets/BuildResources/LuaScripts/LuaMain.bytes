@@ -23,9 +23,15 @@ Manager.Entity:SetEntityGroup(entity_group)
 function Main()
 	-- body
 	print("Hello Main")
-	Manager.UI:Show("Main/MainUI", "UI.LuaTestUI","UI")
+	--Manager.UI:Show("Main/MainUI", "UI.LuaTestUI","UI")
 	--Manager.UI:Show("Enter/PopupWindow", "UI.LuaTestUI","UI")
 	--Manager.UI:Show("Enter/PaoMaDeng", "UI.LuaTestUI","Message")
+	local rapidjson = require("rapidjson")
+	local t = rapidjson.decode('{"a":123}')
+	print(t.a)
+	t.a = 456
+	local s = rapidjson.encode(t)
+	print('json', s)
 end
 
 Main()
