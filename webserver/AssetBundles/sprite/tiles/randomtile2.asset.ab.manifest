@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 183495055
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a613f5e6dfb09823bfbbe79e905d9bbc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1826819296755df7f0e5115e39efeb82
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.2D.Tilemap.Extras
+  ClassName: UnityEngine.RuleTile/TilingRule
+Assets:
+- Assets/BuildResources/Sprite/Tiles/RandomTile2.asset
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/tiles/tiles.png.ab

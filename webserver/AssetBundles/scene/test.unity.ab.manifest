@@ -1,0 +1,114 @@
+ManifestFileVersion: 0
+CRC: 2658945762
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4e9fdd76508c482371670ac1687c2320
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c3bf11d93b21d7b7b935ad217aed176e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 70
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b9be9352398074048b3b68d7d5434da5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de9ff94902aec2044af69a1ef8a1f55b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a52f6595602a9034489633fc2539518c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f99563e691609a4387e90264830b935, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1e6015877994cc540a222c6839fa67b3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 39fa3d8997a24136984ca6e2c99902bc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6b057ad7b4d454448ff26e7358ed7e5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f5395ae6bb5a50042ae68bbd9ff7c6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b5770575852a57a419745d62e58518f0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb7d5135c49b079458a8764627552542, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d4b9f7d9390ffed4d8db6d7ff3bae855, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8ef5be9f802fc44f9c313f630002e7a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59bf0fd6eb7a5724d9be5ffbaecb69a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b76b241e2064cc84aaad139ae9cb8f63, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6555cf9d6cfe80a42a5b5b6b37b80ddc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Scene/Test.unity
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/ui/prefabs/main/mainui.prefab.ab

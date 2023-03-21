@@ -30,7 +30,6 @@ namespace manager
             if ( AppConst.GameMode == GameMode.EditorMode)
             {
                 EditorLoadLuaScript();
-
             }
             else
 #endif
@@ -80,7 +79,7 @@ namespace manager
                     if (m_LuaScripts.Count >= LuaNames.Count)
                     {
                         // 向外部传输完成回调
-                        GameManager.Event.Fire(10000);
+                        GameManager.Event.Fire((int)GameEvent.StartLua);
                         LuaNames.Clear();
                         LuaNames = null;
                     }
@@ -105,7 +104,7 @@ namespace manager
                 byte[] file =  File.ReadAllBytes(fileName);
                 AddLuaScript(PathUtil.GetUnityPath(fileName), file);
             }
-            GameManager.Event.Fire(10000);
+            GameManager.Event.Fire((int)GameEvent.StartLua);
         }
 #endif
 

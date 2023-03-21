@@ -3,173 +3,176 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoSingleton<UIManager>
+namespace manager
 {
-    class UIElement
+    public class UIManager : MonoSingleton<UIManager>
     {
-        public string Resources;
-        public bool Cache;
-        public GameObject Instance;
-    }
-
-    private Dictionary<Type,UIElement> UIResouces = new Dictionary<Type,UIElement>();
-
-    //private Dictionary<string, GameObject> m_UI = new Dictionary<string, GameObject>();
-
-    // UI分层
-    private Dictionary<string, Transform> m_UIGroups = new Dictionary<string, Transform>();
-    private Transform m_UIParent;
-
-    public void Awake()
-    {
-        m_UIParent = this.transform.Find("UI");
-
-        this.UIResouces.Add(typeof(BagUI), new UIElement() { Resources = "Bag/ItemBag", Cache = true });
-    }
-
-    public void SetUIGroup(List<string> group)
-    {
-        foreach(var i in group)
+        class UIElement
         {
-            GameObject go = new GameObject("Group-" + i);
-            go.transform.SetParent(m_UIParent,false);
-            m_UIGroups.Add(i, go.transform);
+            public string Resources;
+            public bool Cache;
+            public GameObject Instance;
         }
-    }
 
-    Transform GetUIGroup(string group)
-    {
-        Transform g = null;
-        if (!m_UIGroups.TryGetValue(group, out g))
+        private Dictionary<Type, UIElement> UIResouces = new Dictionary<Type, UIElement>();
+
+        //private Dictionary<string, GameObject> m_UI = new Dictionary<string, GameObject>();
+
+        // UI分层
+        private Dictionary<string, Transform> m_UIGroups = new Dictionary<string, Transform>();
+        private Transform m_UIParent;
+
+        public void Awake()
         {
-            Debug.LogError("UI group not exist");
+            m_UIParent = this.transform.Find("UI");
+
+            this.UIResouces.Add(typeof(BagUI), new UIElement() { Resources = "Bag/ItemBag", Cache = true });
         }
-        return g;
-    }
 
-    #region OpenAndCloseUI
-
-    public bool IsShow<T>()
-    {
-        Type type = typeof(T);
-
-        if (this.UIResouces.ContainsKey(type))
+        public void SetUIGroup(List<string> group)
         {
-            UIElement info = this.UIResouces[type];
-            if (info.Instance != null)
+            foreach (var i in group)
             {
-                if (info.Instance.activeSelf == true)
+                GameObject go = new GameObject("Group-" + i);
+                go.transform.SetParent(m_UIParent, false);
+                m_UIGroups.Add(i, go.transform);
+            }
+        }
+
+        Transform GetUIGroup(string group)
+        {
+            Transform g = null;
+            if (!m_UIGroups.TryGetValue(group, out g))
+            {
+                Debug.LogError("UI group not exist");
+            }
+            return g;
+        }
+
+        #region OpenAndCloseUI
+
+        public bool IsShow<T>()
+        {
+            Type type = typeof(T);
+
+            if (this.UIResouces.ContainsKey(type))
+            {
+                UIElement info = this.UIResouces[type];
+                if (info.Instance != null)
                 {
-                    return true;
+                    if (info.Instance.activeSelf == true)
+                    {
+                        return true;
+                    }
+                    return false;
                 }
                 return false;
             }
             return false;
         }
-        return false;
-    }
 
 
-    public void Show(string uiName, string luaName, string group)
-    {
-        GameObject go = null;
-
-        string uiPath = PathUtil.GetUIPath(uiName);
-        Transform parent = GetUIGroup(group);
-
-        // 对象池查找对象，如有则直接取出使用
-        UnityEngine.Object uiObj = GameManager.Pool.Spawn("UI", uiPath);
-        if (uiObj != null)
+        public void Show(string uiName, string luaName, string group)
         {
-            go = uiObj as GameObject;
-            go.transform.SetParent(parent, false);
+            GameObject go = null;
 
-            LuaUILogic uiLogic = go.GetComponent<LuaUILogic>();
-            uiLogic.OnOpen();
-            return;
-        }
-        //如果没有则新建对象
-        GameManager.Resource.LoadUI(uiName, (Action<UnityEngine.Object>)((UnityEngine.Object obj) =>
-        {
-            go = GameObject.Instantiate(obj) as GameObject;
-            go.transform.SetParent(parent, false);
+            string uiPath = PathUtil.GetUIPath(uiName);
+            Transform parent = GetUIGroup(group);
 
-            // 将UI组件与Lua脚本绑定
-            LuaUILogic uiLogic = go.AddComponent<LuaUILogic>();
-            uiLogic.AssetName = uiPath;
-            uiLogic.Init(luaName);
-            uiLogic.OnOpen();
-        }));
-    }
-    public T Show<T>()
-    {
-        Type type = typeof(T);
-
-        if (this.UIResouces.ContainsKey(type))
-        {
-            UIElement info = this.UIResouces[type];
-            if (info.Instance != null)
+            // 对象池查找对象，如有则直接取出使用
+            UnityEngine.Object uiObj = GameManager.Pool.Spawn("UI", uiPath);
+            if (uiObj != null)
             {
-                info.Instance.SetActive(true);
+                go = uiObj as GameObject;
+                go.transform.SetParent(parent, false);
+
+                LuaUILogic uiLogic = go.GetComponent<LuaUILogic>();
+                uiLogic.OnOpen();
+                return;
             }
-            else
+            //如果没有则新建对象
+            GameManager.Resource.LoadUI(uiName, (Action<UnityEngine.Object>)((UnityEngine.Object obj) =>
             {
-                UnityEngine.Object prefab = Resources.Load(info.Resources);
-                if (prefab == null) 
-                { 
-                    return default(T);
+                go = GameObject.Instantiate(obj) as GameObject;
+                go.transform.SetParent(parent, false);
+
+                // 将UI组件与Lua脚本绑定
+                LuaUILogic uiLogic = go.AddComponent<LuaUILogic>();
+                uiLogic.AssetName = uiPath;
+                uiLogic.Init(luaName);
+                uiLogic.OnOpen();
+            }));
+        }
+        public T Show<T>()
+        {
+            Type type = typeof(T);
+
+            if (this.UIResouces.ContainsKey(type))
+            {
+                UIElement info = this.UIResouces[type];
+                if (info.Instance != null)
+                {
+                    info.Instance.SetActive(true);
                 }
-                info.Instance = (GameObject)GameObject.Instantiate(prefab);
+                else
+                {
+                    UnityEngine.Object prefab = Resources.Load(info.Resources);
+                    if (prefab == null)
+                    {
+                        return default(T);
+                    }
+                    info.Instance = (GameObject)GameObject.Instantiate(prefab);
+                }
+                return info.Instance.GetComponent<T>();
             }
-            return info.Instance.GetComponent<T>();
+            return default(T);
         }
-        return default(T);
-    }
 
-    public void Close(Type type)
-    {
-        if (this.UIResouces.ContainsKey(type))
+        public void Close(Type type)
         {
-            UIElement element = this.UIResouces[type];
-            if (element.Cache)
+            if (this.UIResouces.ContainsKey(type))
             {
-                element.Instance.SetActive(false);
-            }
-            else
-            {
-                GameObject.Destroy(element.Instance);
-                element.Instance = null;
+                UIElement element = this.UIResouces[type];
+                if (element.Cache)
+                {
+                    element.Instance.SetActive(false);
+                }
+                else
+                {
+                    GameObject.Destroy(element.Instance);
+                    element.Instance = null;
+                }
             }
         }
-    }
 
-    public void Close<T>()
-    {
-        Type type = typeof(T);
-        if (this.UIResouces.ContainsKey(type))
+        public void Close<T>()
         {
-            UIElement element = this.UIResouces[type];
-            if (element.Cache)
+            Type type = typeof(T);
+            if (this.UIResouces.ContainsKey(type))
             {
-                element.Instance.SetActive(false);
-            }
-            else
-            {
-                GameObject.Destroy(element.Instance);
-                element.Instance = null;
+                UIElement element = this.UIResouces[type];
+                if (element.Cache)
+                {
+                    element.Instance.SetActive(false);
+                }
+                else
+                {
+                    GameObject.Destroy(element.Instance);
+                    element.Instance = null;
+                }
             }
         }
-    }
-    #endregion
+        #endregion
 
-    #region MainUI
-    public void InitUI(float playerMaxHealth)
-    {
-        MainUI.Instance.InitHealth(playerMaxHealth);
+        #region MainUI
+        public void InitUI(float playerMaxHealth)
+        {
+            MainUI.Instance.InitHealth(playerMaxHealth);
+        }
+        public void UpdateHealth(float health)
+        {
+            MainUI.Instance.UpdateHealth(health);
+        }
+        #endregion
     }
-    public void UpdateHealth(float health)
-    {
-        MainUI.Instance.UpdateHealth(health);
-    }
-    #endregion
 }

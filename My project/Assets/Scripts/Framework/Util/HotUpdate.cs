@@ -11,8 +11,19 @@ public class HotUpdate : MonoBehaviour
 {
     byte[] m_ReadPathFileListData;
     byte[] m_ServerFileListData;
+
+    // 下载文件的总数
+    int m_DownloadCount;
+
+    GameObject loadingObj;
+    LoadingUI loadingUI;
     private void Start()
     {
+        GameObject go = Resources.Load<GameObject>("UI/LoadingUI");
+        loadingObj = Instantiate(go);
+        loadingObj.transform.SetParent(this.transform.Find("UI"),false);
+        loadingUI = loadingObj.GetComponent<LoadingUI>();
+
         if (IsFirstInstall())
         {
             ReleaseResources();
@@ -38,6 +49,7 @@ public class HotUpdate : MonoBehaviour
     /// </summary>
     private void ReleaseResources()
     {
+        m_DownloadCount = 0;
         string url = Path.Combine(PathUtil.ReadPath, AppConst.FileListName);
         DownFileInfo info = new DownFileInfo();
         info.url = url;
@@ -52,6 +64,9 @@ public class HotUpdate : MonoBehaviour
         List<DownFileInfo> fileInfos = GetFileList(file.fileData.text, PathUtil.ReadPath);
         // 从本地只读目录下载所有filelist中的资源
         StartCoroutine(DownLoadFile(fileInfos, OnReleaseFileComplete, OnReleaseAllFileComplete));
+
+        // 修改加载进度条状态
+        loadingUI.InitProgress(fileInfos.Count, "正在释放资源");
     }
     private void OnReleaseFileComplete(DownFileInfo fileInfo)
     {
@@ -59,12 +74,17 @@ public class HotUpdate : MonoBehaviour
         //下载好的文件写入到本地的RW目录之中
         string writeFile = Path.Combine(PathUtil.ReadWritePath, fileInfo.bundleName);
         FileUtil.WriteFile(writeFile, fileInfo.fileData.data);
+
     }
     private void OnReleaseAllFileComplete()
     {
         //写入全部完成后，向本地的RW目录写入当前新的filelist
         FileUtil.WriteFile(Path.Combine(PathUtil.ReadWritePath, AppConst.FileListName), m_ReadPathFileListData);
         CheckUpdate();
+
+        // 修改加载进度条状态
+        m_DownloadCount++;
+        loadingUI.UpdateProgress(m_DownloadCount);
     }
 
     #region Update
@@ -81,15 +101,19 @@ public class HotUpdate : MonoBehaviour
 
     private void OnDownLoadServerFileListComplete(DownFileInfo info)
     {
+        m_DownloadCount = 0;
+
         // info是从服务器拉取的filelist文件
         m_ServerFileListData = info.fileData.data;
         List<DownFileInfo> fileInfos = GetFileList(info.fileData.text, AppConst.ResourcesUrl);
+
         // 这是待下载的文件列表
         List<DownFileInfo> downListFiles = new List<DownFileInfo>();
 
         for(int i = 0; i< fileInfos.Count; i++)
         {
             string localFile = Path.Combine(PathUtil.ReadWritePath, fileInfos[i].bundleName);
+
             //如果在本地的RW文件夹下没有找到服务器拉取的filelist里要求的资源
             if (!FileUtil.IsExists(localFile))
             {
@@ -97,11 +121,21 @@ public class HotUpdate : MonoBehaviour
                 // 存入需要下载的文件列表
                 downListFiles.Add(fileInfos[i]);
             }
+            // 校验本地与远程的bundle的MD5
+            else if (fileInfos[i].MD5 != FileUtil.GetFileMD5(localFile))
+            {
+                // MD5码不同，就重新下载
+                fileInfos[i].url = Path.Combine(AppConst.ResourcesUrl, fileInfos[i].bundleName);
+                downListFiles.Add(fileInfos[i]);
+            }
         }
 
         if(downListFiles.Count > 0)
         {
             StartCoroutine(DownLoadFile(fileInfos, OnUpdateFileComplete, OnUpdateAllFileComplete));
+
+            // 修改加载进度条状态
+            loadingUI.InitProgress(downListFiles.Count, "正在更新中");
         }
         else
         {
@@ -115,18 +149,25 @@ public class HotUpdate : MonoBehaviour
         // 从远程下载的文件写入到RW目录中
         string writeFile = Path.Combine(PathUtil.ReadWritePath, fileInfo.bundleName);
         FileUtil.WriteFile(writeFile, fileInfo.fileData.data);
+
+        // 修改加载进度条状态
+        m_DownloadCount++;
+        loadingUI.UpdateProgress(m_DownloadCount);
     }
     private void OnUpdateAllFileComplete()
     {
         FileUtil.WriteFile(Path.Combine(PathUtil.ReadWritePath, AppConst.FileListName), m_ServerFileListData);
         EnterGame();
+
+        // 修改加载进度条状态
+        loadingUI.InitProgress(0, "正在载入中");
     }
     #endregion
 
     private void EnterGame()
     {
-        GameManager.Resource.ParseVersionFile();
-        GameManager.Resource.LoadUI("Enter/EnterUI", OnComplete);
+        GameManager.Event.Fire((int)GameEvent.GameInit);
+        Destroy(loadingObj);
     }
     private void OnComplete(UnityEngine.Object obj)
     {
@@ -141,6 +182,10 @@ public class HotUpdate : MonoBehaviour
     {
         public string url;
         public string bundleName;
+
+        //校验本地与远程MD5
+        public string MD5;
+
         public DownloadHandler fileData;
     }
     /// <summary>
@@ -159,6 +204,10 @@ public class HotUpdate : MonoBehaviour
             yield break;
             // TODO: 重试逻辑
         }
+
+        //测试逻辑
+        //yield return new WaitForSeconds(0.5f);
+
         info.fileData = webRequest.downloadHandler;
         Complete?.Invoke(info);
         webRequest.Dispose();
@@ -188,7 +237,9 @@ public class HotUpdate : MonoBehaviour
     /// <returns>包含url和bundlename的Info的列表</returns>
     private List<DownFileInfo> GetFileList(string fileData, string path)
     {
+        //txt文件可能存在的错误，无意义存在的\r
         string content = fileData.Trim().Replace("\r", "");
+
         string[] files = content.Split("\n");
         List<DownFileInfo> downFileInfos = new List<DownFileInfo>(files.Length);
         for (int i = 0; i < files.Length; i++)
@@ -197,6 +248,10 @@ public class HotUpdate : MonoBehaviour
             DownFileInfo fileinfo = new DownFileInfo();
             //fileList的第二格是bundleName
             fileinfo.bundleName = info[1];
+
+            //fileList的最后一位是MD5校验码
+            fileinfo.MD5 = info[info.Length - 1];
+
             //文件路径+bundleName，成为可以获取文件的地址名
             fileinfo.url = Path.Combine(path, info[1]);
             downFileInfos.Add(fileinfo);

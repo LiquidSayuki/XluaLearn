@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/004/Desktop/Framework/build_xlua_with_libs/build
+# Install script for directory: F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

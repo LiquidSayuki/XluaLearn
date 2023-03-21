@@ -1,0 +1,29 @@
+function Class(super)
+	local class = nil
+	if super then
+		class = setmetatable({},{__index = super})
+		class.super = super
+	else 
+		class = {ctor = function() end}
+	end
+	class.__index = class
+
+	function class.new(...)
+		--class 成为instance元表
+	local instance = setmetatable({},class)
+	local function create(inst,...)
+		-- 存在super（父类）则递归调用新建类的功能
+		if type(inst.super) == "table" then
+			create(inst.super, ...)
+		end
+		-- ctor是构造函数
+		if type(inst.ctor) == "function" then
+			inst.ctor(instance,...);
+		end
+	end
+	create (instance,...)
+	return instance
+	end
+	return class;
+end
+

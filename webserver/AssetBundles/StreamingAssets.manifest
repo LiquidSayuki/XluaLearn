@@ -1,80 +1,291 @@
 ManifestFileVersion: 0
-CRC: 4284873508
+CRC: 413478148
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: sprite/props.png.ab
+      Name: luascripts/class.bytes.ab
       Dependencies: {}
     Info_1:
-      Name: sprite/room.png.ab
+      Name: luascripts/log.bytes.ab
       Dependencies: {}
     Info_2:
-      Name: sprite/ui.png.ab
+      Name: luascripts/luamain.bytes.ab
       Dependencies: {}
     Info_3:
-      Name: audio/sound/dead.wav.ab
+      Name: scene/loading.unity.ab
       Dependencies: {}
     Info_4:
-      Name: audio/sound/hit0.wav.ab
-      Dependencies: {}
+      Name: scene/mainscene.unity.ab
+      Dependencies:
+        Dependency_0: model/prefabs/enemy0.prefab.ab
+        Dependency_1: model/prefabs/enemy1.prefab.ab
+        Dependency_2: model/prefabs/enemy2.prefab.ab
+        Dependency_3: model/prefabs/enemy3.prefab.ab
+        Dependency_4: model/prefabs/enemy4.prefab.ab
+        Dependency_5: sprite/tiles/randomtile2.asset.ab
+        Dependency_6: sprite/tiles/tiles.png.ab
     Info_5:
-      Name: audio/sound/hit1.wav.ab
-      Dependencies: {}
+      Name: scene/test.unity.ab
+      Dependencies:
+        Dependency_0: ui/prefabs/main/mainui.prefab.ab
     Info_6:
-      Name: audio/sound/levelup.wav.ab
+      Name: sprite/props.png.ab
       Dependencies: {}
     Info_7:
-      Name: audio/sound/lose.wav.ab
+      Name: sprite/room.png.ab
       Dependencies: {}
     Info_8:
-      Name: audio/sound/melee0.wav.ab
+      Name: sprite/ui.png.ab
       Dependencies: {}
     Info_9:
-      Name: audio/sound/melee1.wav.ab
+      Name: audio/music/dayu.mp3.ab
       Dependencies: {}
     Info_10:
-      Name: audio/sound/range.wav.ab
+      Name: audio/sound/dead.wav.ab
       Dependencies: {}
     Info_11:
-      Name: audio/sound/select.wav.ab
+      Name: audio/sound/hit0.wav.ab
       Dependencies: {}
     Info_12:
-      Name: audio/sound/win.wav.ab
+      Name: audio/sound/hit1.wav.ab
       Dependencies: {}
     Info_13:
-      Name: sprite/enemy/enemy 0.png.ab
+      Name: audio/sound/levelup.wav.ab
       Dependencies: {}
     Info_14:
-      Name: sprite/enemy/enemy 1.png.ab
+      Name: audio/sound/lose.wav.ab
       Dependencies: {}
     Info_15:
-      Name: sprite/enemy/enemy 2.png.ab
+      Name: audio/sound/melee0.wav.ab
       Dependencies: {}
     Info_16:
-      Name: sprite/enemy/enemy 3.png.ab
+      Name: audio/sound/melee1.wav.ab
       Dependencies: {}
     Info_17:
-      Name: sprite/enemy/enemy 4.png.ab
+      Name: audio/sound/range.wav.ab
       Dependencies: {}
     Info_18:
-      Name: sprite/player/farmer 0.png.ab
+      Name: audio/sound/select.wav.ab
       Dependencies: {}
     Info_19:
-      Name: sprite/player/farmer 1.png.ab
+      Name: audio/sound/win.wav.ab
       Dependencies: {}
     Info_20:
-      Name: sprite/player/farmer 2.png.ab
+      Name: luascripts/entity/playerentity.bytes.ab
       Dependencies: {}
     Info_21:
-      Name: sprite/player/farmer 3.png.ab
+      Name: luascripts/message/base_msg.bytes.ab
       Dependencies: {}
     Info_22:
-      Name: sprite/tiles/tiles.png.ab
+      Name: luascripts/message/msg_mgr.bytes.ab
       Dependencies: {}
     Info_23:
-      Name: ui/prefabs/tmptest.prefab.ab
+      Name: luascripts/message/msg_test.bytes.ab
       Dependencies: {}
     Info_24:
+      Name: luascripts/scene/loading.bytes.ab
+      Dependencies: {}
+    Info_25:
+      Name: luascripts/scene/mainscene.bytes.ab
+      Dependencies: {}
+    Info_26:
+      Name: luascripts/scene/scenelifecycletemplate.bytes.ab
+      Dependencies: {}
+    Info_27:
+      Name: luascripts/ui/luatestui.bytes.ab
+      Dependencies: {}
+    Info_28:
+      Name: model/animation/player.controller.ab
+      Dependencies:
+        Dependency_0: model/animation/playerdead.anim.ab
+        Dependency_1: model/animation/playermove.anim.ab
+        Dependency_2: model/animation/playerstand.anim.ab
+    Info_29:
+      Name: model/animation/playerdead.anim.ab
+      Dependencies:
+        Dependency_0: sprite/player/farmer 1.png.ab
+    Info_30:
+      Name: model/animation/playermove.anim.ab
+      Dependencies:
+        Dependency_0: sprite/player/farmer 1.png.ab
+    Info_31:
+      Name: model/animation/playerstand.anim.ab
+      Dependencies:
+        Dependency_0: sprite/player/farmer 1.png.ab
+    Info_32:
+      Name: model/prefabs/enemy0.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 0.png.ab
+        Dependency_1: model/animation/enemy/acenemy 0.controller.ab
+    Info_33:
+      Name: model/prefabs/enemy1.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 1.png.ab
+        Dependency_1: model/animation/enemy/acenemy 1.overridecontroller.ab
+    Info_34:
+      Name: model/prefabs/enemy2.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 2.png.ab
+        Dependency_1: model/animation/enemy/acenemy 2.overridecontroller.ab
+    Info_35:
+      Name: model/prefabs/enemy3.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 3.png.ab
+        Dependency_1: model/animation/enemy/acenemy 3.overridecontroller.ab
+    Info_36:
+      Name: model/prefabs/enemy4.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 4.png.ab
+        Dependency_1: model/animation/enemy/acenemy 4.overridecontroller.ab
+    Info_37:
+      Name: model/prefabs/player.prefab.ab
+      Dependencies:
+        Dependency_0: model/animation/player.controller.ab
+        Dependency_1: sprite/player/farmer 1.png.ab
+    Info_38:
+      Name: sprite/enemy/enemy 0.png.ab
+      Dependencies: {}
+    Info_39:
+      Name: sprite/enemy/enemy 1.png.ab
+      Dependencies: {}
+    Info_40:
+      Name: sprite/enemy/enemy 2.png.ab
+      Dependencies: {}
+    Info_41:
+      Name: sprite/enemy/enemy 3.png.ab
+      Dependencies: {}
+    Info_42:
+      Name: sprite/enemy/enemy 4.png.ab
+      Dependencies: {}
+    Info_43:
+      Name: sprite/player/farmer 0.png.ab
+      Dependencies: {}
+    Info_44:
+      Name: sprite/player/farmer 1.png.ab
+      Dependencies: {}
+    Info_45:
+      Name: sprite/player/farmer 2.png.ab
+      Dependencies: {}
+    Info_46:
+      Name: sprite/player/farmer 3.png.ab
+      Dependencies: {}
+    Info_47:
+      Name: sprite/tiles/randomtile2.asset.ab
+      Dependencies:
+        Dependency_0: sprite/tiles/tiles.png.ab
+    Info_48:
+      Name: sprite/tiles/tiles.png.ab
+      Dependencies: {}
+    Info_49:
+      Name: ui/prefabs/tmptest.prefab.ab
+      Dependencies: {}
+    Info_50:
+      Name: model/animation/enemy/acenemy 0.controller.ab
+      Dependencies:
+        Dependency_0: model/animation/enemy/deadenemy 0.anim.ab
+        Dependency_1: model/animation/enemy/hitenemy 0.anim.ab
+        Dependency_2: model/animation/enemy/runenemy 0.anim.ab
+    Info_51:
+      Name: model/animation/enemy/acenemy 1.overridecontroller.ab
+      Dependencies:
+        Dependency_0: model/animation/enemy/acenemy 0.controller.ab
+        Dependency_1: model/animation/enemy/deadenemy 0.anim.ab
+        Dependency_2: model/animation/enemy/deadenemy 1.anim.ab
+        Dependency_3: model/animation/enemy/hitenemy 0.anim.ab
+        Dependency_4: model/animation/enemy/hitenemy 1.anim.ab
+        Dependency_5: model/animation/enemy/runenemy 0.anim.ab
+        Dependency_6: model/animation/enemy/runenemy 1.anim.ab
+    Info_52:
+      Name: model/animation/enemy/acenemy 2.overridecontroller.ab
+      Dependencies:
+        Dependency_0: model/animation/enemy/acenemy 0.controller.ab
+        Dependency_1: model/animation/enemy/deadenemy 0.anim.ab
+        Dependency_2: model/animation/enemy/deadenemy 2.anim.ab
+        Dependency_3: model/animation/enemy/hitenemy 0.anim.ab
+        Dependency_4: model/animation/enemy/hitenemy 2.anim.ab
+        Dependency_5: model/animation/enemy/runenemy 0.anim.ab
+        Dependency_6: model/animation/enemy/runenemy 2.anim.ab
+    Info_53:
+      Name: model/animation/enemy/acenemy 3.overridecontroller.ab
+      Dependencies:
+        Dependency_0: model/animation/enemy/acenemy 0.controller.ab
+        Dependency_1: model/animation/enemy/deadenemy 0.anim.ab
+        Dependency_2: model/animation/enemy/deadenemy 3.anim.ab
+        Dependency_3: model/animation/enemy/hitenemy 0.anim.ab
+        Dependency_4: model/animation/enemy/hitenemy 3.anim.ab
+        Dependency_5: model/animation/enemy/runenemy 0.anim.ab
+        Dependency_6: model/animation/enemy/runenemy 3.anim.ab
+    Info_54:
+      Name: model/animation/enemy/acenemy 4.overridecontroller.ab
+      Dependencies:
+        Dependency_0: model/animation/enemy/acenemy 0.controller.ab
+        Dependency_1: model/animation/enemy/deadenemy 0.anim.ab
+        Dependency_2: model/animation/enemy/deadenemy 4.anim.ab
+        Dependency_3: model/animation/enemy/hitenemy 0.anim.ab
+        Dependency_4: model/animation/enemy/hitenemy 4.anim.ab
+        Dependency_5: model/animation/enemy/runenemy 0.anim.ab
+        Dependency_6: model/animation/enemy/runenemy 4.anim.ab
+    Info_55:
+      Name: model/animation/enemy/deadenemy 0.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 0.png.ab
+    Info_56:
+      Name: model/animation/enemy/deadenemy 1.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 1.png.ab
+    Info_57:
+      Name: model/animation/enemy/deadenemy 2.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 2.png.ab
+    Info_58:
+      Name: model/animation/enemy/deadenemy 3.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 3.png.ab
+    Info_59:
+      Name: model/animation/enemy/deadenemy 4.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 4.png.ab
+    Info_60:
+      Name: model/animation/enemy/hitenemy 0.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 0.png.ab
+    Info_61:
+      Name: model/animation/enemy/hitenemy 1.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 1.png.ab
+    Info_62:
+      Name: model/animation/enemy/hitenemy 2.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 2.png.ab
+    Info_63:
+      Name: model/animation/enemy/hitenemy 3.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 3.png.ab
+    Info_64:
+      Name: model/animation/enemy/hitenemy 4.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 4.png.ab
+    Info_65:
+      Name: model/animation/enemy/runenemy 0.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 0.png.ab
+    Info_66:
+      Name: model/animation/enemy/runenemy 1.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 1.png.ab
+    Info_67:
+      Name: model/animation/enemy/runenemy 2.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 2.png.ab
+    Info_68:
+      Name: model/animation/enemy/runenemy 3.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 3.png.ab
+    Info_69:
+      Name: model/animation/enemy/runenemy 4.anim.ab
+      Dependencies:
+        Dependency_0: sprite/enemy/enemy 4.png.ab
+    Info_70:
       Name: ui/prefabs/enter/enterui.prefab.ab
       Dependencies:
         Dependency_0: sprite/room.png.ab
@@ -82,3 +293,16 @@ AssetBundleManifest:
         Dependency_2: sprite/player/farmer 0.png.ab
         Dependency_3: sprite/player/farmer 1.png.ab
         Dependency_4: sprite/tiles/tiles.png.ab
+    Info_71:
+      Name: ui/prefabs/enter/paomadeng.prefab.ab
+      Dependencies: {}
+    Info_72:
+      Name: ui/prefabs/enter/popupwindow.prefab.ab
+      Dependencies: {}
+    Info_73:
+      Name: ui/prefabs/main/mainui.prefab.ab
+      Dependencies: {}
+    Info_74:
+      Name: ui/prefabs/main/test.prefab.ab
+      Dependencies:
+        Dependency_0: sprite/room.png.ab

@@ -1,0 +1,46 @@
+local base_msg = Class();
+
+--消息注册
+--不定参数：向服务器传输时的key
+function base_msg:add_req_res(msg_name,msg_id,...)
+	local keys = {...}
+
+	--消息请求
+	--self[req_message_test]
+	--不定参数，向服务器发送内容的value
+	self["req_"..msg_name] = function(self,...)
+		local values = {...}
+		if #keys ~= #values then
+			Log.Error("参数不正确:", msg_name)
+		end
+		local send_data = {}
+		for i=1,#keys do
+			send_data[keys[i]] = values[i]
+		end
+		--发送键值对
+		--send_data{key1 = value1, key2 = value2}
+
+		--message manager
+		msg_mgr.send_msg(msg_id,send_data)
+	end
+
+	--消息接收
+	--self[res_message_test]是一个方法
+	if type(self["res_"..msg_name]) == "function" then
+		--message manager注册回调
+		msg_mgr.register(msg_id, 
+			function(data)
+				local msg = Json.decode(data);
+				if msg.code ~= 0 then
+					Log.Error("错误码：",msg.code)
+					return
+				end
+				--调用self[res_message_hello]接收消息的方法
+				self["res_"..msg_name](self,msg)
+			end)
+	else
+		Log.Error("请注册消息返回回调:" .. msg_name)
+	end
+end
+
+return base_msg

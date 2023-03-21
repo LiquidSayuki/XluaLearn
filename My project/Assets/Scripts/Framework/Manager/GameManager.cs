@@ -2,6 +2,7 @@ using manager;
 using System.Collections;
 using System.Collections.Generic;
 using System.Resources;
+using Unity.VisualScripting;
 using UnityEngine;
 using Util;
 
@@ -51,6 +52,8 @@ public class GameManager : MonoSingleton<GameManager>
 
     // 设置游戏模式（管理ab包加载）
     public GameMode GameMode;
+    // 设置是否打开Log
+    public bool OpenLog;
     // 其他管理器实例统一管理
     private static ResourcesManager _resource;
     public static ResourcesManager Resource
@@ -97,10 +100,18 @@ public class GameManager : MonoSingleton<GameManager>
     {
         get { return _pool; }
     }
+    private static NetManager _net;
+    public static NetManager Net
+    {
+        get { return _net; }
+    }
+
 
     protected override void OnStart()
     {
         AppConst.GameMode = this.GameMode;
+        AppConst.OpenLog = this.OpenLog;
+
         _resource = ResourcesManager.Instance;
         _lua = LuaManager.Instance;
         _ui = UIManager.Instance;
@@ -109,22 +120,33 @@ public class GameManager : MonoSingleton<GameManager>
         _sound = SoundManager.Instance;
         _event = EventManager.Instance;
         _pool = PoolManager.Instance;
+        _net= NetManager.Instance;
 
-        // Init Resources manager
-        Resource.ParseVersionFile();
         // Init Lua manager
-        Event.Subscribe(10000, OnLuaInit);
-        Lua.Init();
-        
+        //Event.Subscribe(10000, OnLuaInit);
+        Event.Subscribe((int)GameEvent.StartLua, StartLua);
+        Event.Subscribe((int)GameEvent.GameInit, GameInit);
 
-        // 通过大G表来在lua全局寻找函数进行调用，效率太低了
-        //XLua.LuaFunction func = Lua.luaEnv.Global.Get<XLua.LuaFunction>("Main");
-        //func.Call();
+        if (AppConst.GameMode == GameMode.UpdateMode)
+            this.gameObject.AddComponent<HotUpdate>();
+        else
+            Event.Fire((int)GameEvent.GameInit);
      }
 
-    void OnLuaInit(object args)
+    private void GameInit(object args)
+    {
+        if(AppConst.GameMode != GameMode.EditorMode)
+            Resource.ParseVersionFile();
+        Lua.Init();
+    }
+
+    private void StartLua(object args)
     {
         Lua.StartLua("LuaMain");
+
+        // 通过大G表来在lua全局寻找函数进行调用
+        //XLua.LuaFunction func = Lua.luaEnv.Global.Get<XLua.LuaFunction>("Main");
+        //func.Call();
 
         Pool.CreateGameObjectPool("UI", 10);
         Pool.CreateGameObjectPool("Monster", 120);
@@ -135,6 +157,11 @@ public class GameManager : MonoSingleton<GameManager>
 
     private void OnApplicationQuit()
     {
-        Event.UnSubscribe(10000, OnLuaInit);
+        Event.UnSubscribe((int)GameEvent.StartLua, StartLua);
+    }
+
+    public void QuitGane()
+    {
+        Application.Quit();
     }
 }

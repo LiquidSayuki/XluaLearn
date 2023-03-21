@@ -1,9 +1,23 @@
+Engine = CS.UnityEngine
 Manager = CS.GameManager
 PathUtil = CS.PathUtil
 Vector3 = CS.UnityEngine.Vector3
+Vector2 = CS.UnityEngine.Vector2
 Input = CS.UnityEngine.Input
 KeyCode = CS.UnityEngine.KeyCode
 Time = CS.UnityEngine.Time
+AppConst = CS.AppConst
+DG = CS.DG.Tweening
+
+
+require("class")
+
+Log = require("log")
+Json = require("rapidjson")
+base_msg = require("message.base_msg")
+msg_mgr = require("message.msg_mgr")
+
+
 
 local ui_group = {
 	"Main",
@@ -21,17 +35,17 @@ Manager.UI:SetUIGroup(ui_group)
 Manager.Entity:SetEntityGroup(entity_group)
 
 function Main()
-	-- body
 	print("Hello Main")
-	--Manager.UI:Show("Main/MainUI", "UI.LuaTestUI","UI")
+
+	msg_mgr.init()
+	Manager.Net:Init()
+	--Manager.Net:ConnectedServer("127.0.0.1", 8000)
+	--Manager.Net:ConnectedServer("192.168.3.201", 8000)
+
+	Manager.UI:Show("Main/MainUI", "UI.MainUI","UI")
 	--Manager.UI:Show("Enter/PopupWindow", "UI.LuaTestUI","UI")
 	--Manager.UI:Show("Enter/PaoMaDeng", "UI.LuaTestUI","Message")
-	local rapidjson = require("rapidjson")
-	local t = rapidjson.decode('{"a":123}')
-	print(t.a)
-	t.a = 456
-	local s = rapidjson.encode(t)
-	print('json', s)
+
 end
 
 Main()

@@ -12,7 +12,15 @@ end
 
 function OnEnter()
 	print("Main Scene Enter")
+
 	Manager.Entity:Show(PathUtil.GetModelPath("Player"),"Entity.PlayerEntity","Player")
+
+-- 摄像机玩家绑定
+	local virtualCamera = Engine.GameObject.Find("VirtualCamera")
+	virtualCamera = virtualCamera.transform:GetComponent("CinemachineVirtualCamera")
+	local player = Engine.GameObject.FindGameObjectWithTag("Player")
+	virtualCamera.Follow = player.transform
+
 end
 
 function OnQuit()

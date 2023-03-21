@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BuildResources/Scene/Loading.unity
-    guid: 9c0fe8bc68b566243b6cb7ca0c1ab84a
+    path: Assets/BuildResources/Scene/Test.unity
+    guid: c6d4ee1f21406b44c8eefac6711f1628
   - enabled: 1
     path: Assets/BuildResources/Scene/MainScene.unity
     guid: e70d95d69d6015842a3ab7344fdd2b0c
+  - enabled: 0
+    path: Assets/BuildResources/Scene/Loading.unity
+    guid: 9c0fe8bc68b566243b6cb7ca0c1ab84a
   - enabled: 0
     path: Assets/Scenes/TestDungeon.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab

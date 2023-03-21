@@ -1,0 +1,43 @@
+function Init()
+	Log.Info("MainUI Init Success")
+end
+
+function OnOpen()
+	Log.Info("MainUI Open Success")
+
+	local btn_enter_game = self.transform:Find("btn_enter_game"):GetComponent("Button")
+	local btn_quit_game = self.transform:Find("btn_quit_game"):GetComponent("Button")
+	local img_title = self.transform:Find("img_title"):GetComponent("Image")
+	local img_black = self.transform:Find("img_black"):GetComponent("Image")
+
+	local sequence_title = DG.DOTween:Sequence()
+	sequence_title:Append(img_title.transform:DORotate(Vector3(0,0,10),2))
+	sequence_title:Append(img_title.transform:DORotate(Vector3(0,0,-10),4))
+	sequence_title:SetLoops(-1,DG.LoopType.Yoyo)
+	--img_title.transform:DOLocalMoveX(50,5)
+
+
+	btn_enter_game:OnClickSet(
+		function()
+			local sequence_button = DG.DOTween.Sequence()
+			sequence_button:Append(btn_enter_game.transform:DOMoveY(btn_enter_game.transform.position.y + 100,0.2))
+			sequence_button:Append(btn_quit_game.transform:DOMoveY(btn_quit_game.transform.position.y + 100,0.2))
+			sequence_button:Append(btn_enter_game.transform:DOMoveY(btn_enter_game.transform.position.y - 1000,0.5))
+			sequence_button:Append(btn_quit_game.transform:DOMoveY(btn_quit_game.transform.position.y -1000,0.2)):OnComplete(
+				function() 
+					Manager.Scene:ChangeScene("MainScene","scene.MainScene") 
+					self:OnClose()
+				end
+			)
+			sequence_button:Join(btn_enter_game.transform:DORotate(Vector3(0,180,0), 0.2):SetLoops(10, DG.LoopType.Incremental))
+			sequence_button:Join(btn_quit_game.transform:DORotate(Vector3(0,180,0), 0.2):SetLoops(10, DG.LoopType.Incremental))
+			--img_black:DOFade(1,1)
+		end
+	)
+
+	btn_quit_game:OnClickSet(
+		function()
+			Manager:QuitGame()
+		end
+	)
+end

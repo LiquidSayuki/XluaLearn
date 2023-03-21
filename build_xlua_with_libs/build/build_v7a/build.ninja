@@ -37,7 +37,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lapi.c.o: C_COMPILER__xlua ../lua-5.3.5/
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lapi.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lapi.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lapi.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lauxlib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lauxlib.c
@@ -45,7 +45,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lauxlib.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lauxlib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lauxlib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lauxlib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lbaselib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lbaselib.c
@@ -53,7 +53,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lbaselib.c.o: C_COMPILER__xlua ../lua-5.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lbaselib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lbaselib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lbaselib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lbitlib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lbitlib.c
@@ -61,7 +61,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lbitlib.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lbitlib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lbitlib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lbitlib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lcode.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lcode.c
@@ -69,7 +69,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lcode.c.o: C_COMPILER__xlua ../lua-5.3.5
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lcode.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lcode.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lcode.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lcorolib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lcorolib.c
@@ -77,7 +77,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lcorolib.c.o: C_COMPILER__xlua ../lua-5.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lcorolib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lcorolib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lcorolib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lctype.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lctype.c
@@ -85,7 +85,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lctype.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lctype.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lctype.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lctype.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ldblib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ldblib.c
@@ -93,7 +93,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ldblib.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ldblib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ldblib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ldblib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ldebug.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ldebug.c
@@ -101,7 +101,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ldebug.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ldebug.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ldebug.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ldebug.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ldo.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ldo.c
@@ -109,7 +109,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ldo.c.o: C_COMPILER__xlua ../lua-5.3.5/s
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ldo.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ldo.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ldo.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ldump.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ldump.c
@@ -117,7 +117,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ldump.c.o: C_COMPILER__xlua ../lua-5.3.5
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ldump.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ldump.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ldump.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lfunc.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lfunc.c
@@ -125,7 +125,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lfunc.c.o: C_COMPILER__xlua ../lua-5.3.5
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lfunc.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lfunc.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lfunc.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lgc.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lgc.c
@@ -133,7 +133,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lgc.c.o: C_COMPILER__xlua ../lua-5.3.5/s
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lgc.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lgc.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lgc.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/linit.c.o: C_COMPILER__xlua ../lua-5.3.5/src/linit.c
@@ -141,7 +141,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/linit.c.o: C_COMPILER__xlua ../lua-5.3.5
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\linit.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\linit.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\linit.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/liolib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/liolib.c
@@ -149,7 +149,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/liolib.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\liolib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\liolib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\liolib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/llex.c.o: C_COMPILER__xlua ../lua-5.3.5/src/llex.c
@@ -157,7 +157,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/llex.c.o: C_COMPILER__xlua ../lua-5.3.5/
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\llex.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\llex.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\llex.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lmathlib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lmathlib.c
@@ -165,7 +165,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lmathlib.c.o: C_COMPILER__xlua ../lua-5.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lmathlib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lmathlib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lmathlib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lmem.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lmem.c
@@ -173,7 +173,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lmem.c.o: C_COMPILER__xlua ../lua-5.3.5/
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lmem.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lmem.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lmem.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/loadlib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/loadlib.c
@@ -181,7 +181,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/loadlib.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\loadlib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\loadlib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\loadlib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lobject.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lobject.c
@@ -189,7 +189,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lobject.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lobject.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lobject.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lobject.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lopcodes.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lopcodes.c
@@ -197,7 +197,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lopcodes.c.o: C_COMPILER__xlua ../lua-5.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lopcodes.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lopcodes.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lopcodes.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/loslib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/loslib.c
@@ -205,7 +205,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/loslib.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\loslib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\loslib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\loslib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lparser.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lparser.c
@@ -213,7 +213,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lparser.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lparser.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lparser.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lparser.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lstate.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lstate.c
@@ -221,7 +221,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lstate.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lstate.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lstate.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lstate.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lstring.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lstring.c
@@ -229,7 +229,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lstring.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lstring.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lstring.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lstring.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lstrlib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lstrlib.c
@@ -237,7 +237,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lstrlib.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lstrlib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lstrlib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lstrlib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ltable.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ltable.c
@@ -245,7 +245,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ltable.c.o: C_COMPILER__xlua ../lua-5.3.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ltable.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ltable.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ltable.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ltablib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ltablib.c
@@ -253,7 +253,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ltablib.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ltablib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ltablib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ltablib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/ltm.c.o: C_COMPILER__xlua ../lua-5.3.5/src/ltm.c
@@ -261,7 +261,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/ltm.c.o: C_COMPILER__xlua ../lua-5.3.5/s
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\ltm.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\ltm.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\ltm.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lundump.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lundump.c
@@ -269,7 +269,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lundump.c.o: C_COMPILER__xlua ../lua-5.3
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lundump.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lundump.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lundump.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lutf8lib.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lutf8lib.c
@@ -277,7 +277,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lutf8lib.c.o: C_COMPILER__xlua ../lua-5.
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lutf8lib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lutf8lib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lutf8lib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lvm.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lvm.c
@@ -285,7 +285,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lvm.c.o: C_COMPILER__xlua ../lua-5.3.5/s
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lvm.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lvm.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lvm.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/lua-5.3.5/src/lzio.c.o: C_COMPILER__xlua ../lua-5.3.5/src/lzio.c
@@ -293,7 +293,7 @@ build CMakeFiles/xlua.dir/lua-5.3.5/src/lzio.c.o: C_COMPILER__xlua ../lua-5.3.5/
   DEP_FILE = CMakeFiles\xlua.dir\lua-5.3.5\src\lzio.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-5.3.5\src\lzio.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-5.3.5\src\lzio.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-5.3.5\src
 build CMakeFiles/xlua.dir/luasocket/auxiliar.c.o: C_COMPILER__xlua ../luasocket/auxiliar.c
@@ -301,7 +301,7 @@ build CMakeFiles/xlua.dir/luasocket/auxiliar.c.o: C_COMPILER__xlua ../luasocket/
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\auxiliar.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\auxiliar.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\auxiliar.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/buffer.c.o: C_COMPILER__xlua ../luasocket/buffer.c
@@ -309,7 +309,7 @@ build CMakeFiles/xlua.dir/luasocket/buffer.c.o: C_COMPILER__xlua ../luasocket/bu
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\buffer.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\buffer.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\buffer.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/except.c.o: C_COMPILER__xlua ../luasocket/except.c
@@ -317,7 +317,7 @@ build CMakeFiles/xlua.dir/luasocket/except.c.o: C_COMPILER__xlua ../luasocket/ex
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\except.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\except.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\except.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/inet.c.o: C_COMPILER__xlua ../luasocket/inet.c
@@ -325,7 +325,7 @@ build CMakeFiles/xlua.dir/luasocket/inet.c.o: C_COMPILER__xlua ../luasocket/inet
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\inet.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\inet.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\inet.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/io.c.o: C_COMPILER__xlua ../luasocket/io.c
@@ -333,7 +333,7 @@ build CMakeFiles/xlua.dir/luasocket/io.c.o: C_COMPILER__xlua ../luasocket/io.c
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\io.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\io.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\io.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/luasocket.c.o: C_COMPILER__xlua ../luasocket/luasocket.c
@@ -341,7 +341,7 @@ build CMakeFiles/xlua.dir/luasocket/luasocket.c.o: C_COMPILER__xlua ../luasocket
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\luasocket.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\luasocket.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\luasocket.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/mime.c.o: C_COMPILER__xlua ../luasocket/mime.c
@@ -349,7 +349,7 @@ build CMakeFiles/xlua.dir/luasocket/mime.c.o: C_COMPILER__xlua ../luasocket/mime
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\mime.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\mime.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\mime.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/options.c.o: C_COMPILER__xlua ../luasocket/options.c
@@ -357,7 +357,7 @@ build CMakeFiles/xlua.dir/luasocket/options.c.o: C_COMPILER__xlua ../luasocket/o
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\options.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\options.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\options.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/select.c.o: C_COMPILER__xlua ../luasocket/select.c
@@ -365,7 +365,7 @@ build CMakeFiles/xlua.dir/luasocket/select.c.o: C_COMPILER__xlua ../luasocket/se
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\select.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\select.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\select.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/tcp.c.o: C_COMPILER__xlua ../luasocket/tcp.c
@@ -373,7 +373,7 @@ build CMakeFiles/xlua.dir/luasocket/tcp.c.o: C_COMPILER__xlua ../luasocket/tcp.c
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\tcp.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\tcp.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\tcp.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/timeout.c.o: C_COMPILER__xlua ../luasocket/timeout.c
@@ -381,7 +381,7 @@ build CMakeFiles/xlua.dir/luasocket/timeout.c.o: C_COMPILER__xlua ../luasocket/t
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\timeout.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\timeout.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\timeout.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/udp.c.o: C_COMPILER__xlua ../luasocket/udp.c
@@ -389,7 +389,7 @@ build CMakeFiles/xlua.dir/luasocket/udp.c.o: C_COMPILER__xlua ../luasocket/udp.c
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\udp.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\udp.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\udp.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/luasocket/usocket.c.o: C_COMPILER__xlua ../luasocket/usocket.c
@@ -397,7 +397,7 @@ build CMakeFiles/xlua.dir/luasocket/usocket.c.o: C_COMPILER__xlua ../luasocket/u
   DEP_FILE = CMakeFiles\xlua.dir\luasocket\usocket.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\luasocket\usocket.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\luasocket\usocket.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\luasocket
 build CMakeFiles/xlua.dir/i64lib.c.o: C_COMPILER__xlua ../i64lib.c
@@ -405,7 +405,7 @@ build CMakeFiles/xlua.dir/i64lib.c.o: C_COMPILER__xlua ../i64lib.c
   DEP_FILE = CMakeFiles\xlua.dir\i64lib.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\i64lib.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\i64lib.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir
 build CMakeFiles/xlua.dir/xlua.c.o: C_COMPILER__xlua ../xlua.c
@@ -413,7 +413,7 @@ build CMakeFiles/xlua.dir/xlua.c.o: C_COMPILER__xlua ../xlua.c
   DEP_FILE = CMakeFiles\xlua.dir\xlua.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\xlua.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\xlua.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir
 build CMakeFiles/xlua.dir/memory_leak_checker.c.o: C_COMPILER__xlua ../memory_leak_checker.c
@@ -421,15 +421,15 @@ build CMakeFiles/xlua.dir/memory_leak_checker.c.o: C_COMPILER__xlua ../memory_le
   DEP_FILE = CMakeFiles\xlua.dir\memory_leak_checker.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\memory_leak_checker.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\memory_leak_checker.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir
 build CMakeFiles/xlua.dir/lua-rapidjson/source/rapidjson.cpp.o: CXX_COMPILER__xlua ../lua-rapidjson/source/rapidjson.cpp
   DEFINES = -Dxlua_EXPORTS -DLUA_LIB
   DEP_FILE = CMakeFiles\xlua.dir\lua-rapidjson\source\rapidjson.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -fexceptions -fPIC
-  INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi -isystem E:/Tools/SDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem E:/Tools/SDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem E:/Tools/SDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-rapidjson\source\rapidjson.cpp
+  INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi -isystem F:/AndroidSDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem F:/AndroidSDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem F:/AndroidSDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-rapidjson\source\rapidjson.cpp
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-rapidjson\source
 build CMakeFiles/xlua.dir/lua-protobuf/pb.c.o: C_COMPILER__xlua ../lua-protobuf/pb.c
@@ -437,7 +437,7 @@ build CMakeFiles/xlua.dir/lua-protobuf/pb.c.o: C_COMPILER__xlua ../lua-protobuf/
   DEP_FILE = CMakeFiles\xlua.dir\lua-protobuf\pb.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lua-protobuf\pb.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lua-protobuf\pb.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lua-protobuf
 build CMakeFiles/xlua.dir/lpeg/lpcap.c.o: C_COMPILER__xlua ../lpeg/lpcap.c
@@ -445,7 +445,7 @@ build CMakeFiles/xlua.dir/lpeg/lpcap.c.o: C_COMPILER__xlua ../lpeg/lpcap.c
   DEP_FILE = CMakeFiles\xlua.dir\lpeg\lpcap.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lpeg\lpcap.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lpeg\lpcap.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lpeg
 build CMakeFiles/xlua.dir/lpeg/lpcode.c.o: C_COMPILER__xlua ../lpeg/lpcode.c
@@ -453,7 +453,7 @@ build CMakeFiles/xlua.dir/lpeg/lpcode.c.o: C_COMPILER__xlua ../lpeg/lpcode.c
   DEP_FILE = CMakeFiles\xlua.dir\lpeg\lpcode.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lpeg\lpcode.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lpeg\lpcode.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lpeg
 build CMakeFiles/xlua.dir/lpeg/lpprint.c.o: C_COMPILER__xlua ../lpeg/lpprint.c
@@ -461,7 +461,7 @@ build CMakeFiles/xlua.dir/lpeg/lpprint.c.o: C_COMPILER__xlua ../lpeg/lpprint.c
   DEP_FILE = CMakeFiles\xlua.dir\lpeg\lpprint.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lpeg\lpprint.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lpeg\lpprint.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lpeg
 build CMakeFiles/xlua.dir/lpeg/lptree.c.o: C_COMPILER__xlua ../lpeg/lptree.c
@@ -469,7 +469,7 @@ build CMakeFiles/xlua.dir/lpeg/lptree.c.o: C_COMPILER__xlua ../lpeg/lptree.c
   DEP_FILE = CMakeFiles\xlua.dir\lpeg\lptree.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lpeg\lptree.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lpeg\lptree.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lpeg
 build CMakeFiles/xlua.dir/lpeg/lpvm.c.o: C_COMPILER__xlua ../lpeg/lpvm.c
@@ -477,7 +477,7 @@ build CMakeFiles/xlua.dir/lpeg/lpvm.c.o: C_COMPILER__xlua ../lpeg/lpvm.c
   DEP_FILE = CMakeFiles\xlua.dir\lpeg\lpvm.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\lpeg\lpvm.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\lpeg\lpvm.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\lpeg
 build CMakeFiles/xlua.dir/ffi/parser.c.o: C_COMPILER__xlua ../ffi/parser.c
@@ -485,7 +485,7 @@ build CMakeFiles/xlua.dir/ffi/parser.c.o: C_COMPILER__xlua ../ffi/parser.c
   DEP_FILE = CMakeFiles\xlua.dir\ffi\parser.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\ffi\parser.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\ffi\parser.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\ffi
 build CMakeFiles/xlua.dir/ffi/ctype.c.o: C_COMPILER__xlua ../ffi/ctype.c
@@ -493,7 +493,7 @@ build CMakeFiles/xlua.dir/ffi/ctype.c.o: C_COMPILER__xlua ../ffi/ctype.c
   DEP_FILE = CMakeFiles\xlua.dir\ffi\ctype.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\ffi\ctype.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\ffi\ctype.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\ffi
 build CMakeFiles/xlua.dir/ffi/ffi.c.o: C_COMPILER__xlua ../ffi/ffi.c
@@ -501,7 +501,7 @@ build CMakeFiles/xlua.dir/ffi/ffi.c.o: C_COMPILER__xlua ../ffi/ffi.c
   DEP_FILE = CMakeFiles\xlua.dir\ffi\ffi.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC
   INCLUDES = -I../ -I../lua-5.3.5/src -I. -I../lua-rapidjson/include -I../lua-protobuf -I../lpeg -I../ffi
-  IN_ABS = C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\ffi\ffi.c
+  IN_ABS = F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\ffi\ffi.c
   OBJECT_DIR = CMakeFiles\xlua.dir
   OBJECT_FILE_DIR = CMakeFiles\xlua.dir\ffi
 
@@ -515,7 +515,7 @@ build CMakeFiles/xlua.dir/ffi/ffi.c.o: C_COMPILER__xlua ../ffi/ffi.c
 build libxlua.so: CXX_SHARED_LIBRARY_LINKER__xlua CMakeFiles/xlua.dir/lua-5.3.5/src/lapi.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lauxlib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lbaselib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lbitlib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lcode.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lcorolib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lctype.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ldblib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ldebug.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ldo.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ldump.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lfunc.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lgc.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/linit.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/liolib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/llex.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lmathlib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lmem.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/loadlib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lobject.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lopcodes.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/loslib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lparser.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lstate.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lstring.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lstrlib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ltable.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ltablib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/ltm.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lundump.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lutf8lib.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lvm.c.o CMakeFiles/xlua.dir/lua-5.3.5/src/lzio.c.o CMakeFiles/xlua.dir/luasocket/auxiliar.c.o CMakeFiles/xlua.dir/luasocket/buffer.c.o CMakeFiles/xlua.dir/luasocket/except.c.o CMakeFiles/xlua.dir/luasocket/inet.c.o CMakeFiles/xlua.dir/luasocket/io.c.o CMakeFiles/xlua.dir/luasocket/luasocket.c.o CMakeFiles/xlua.dir/luasocket/mime.c.o CMakeFiles/xlua.dir/luasocket/options.c.o CMakeFiles/xlua.dir/luasocket/select.c.o CMakeFiles/xlua.dir/luasocket/tcp.c.o CMakeFiles/xlua.dir/luasocket/timeout.c.o CMakeFiles/xlua.dir/luasocket/udp.c.o CMakeFiles/xlua.dir/luasocket/usocket.c.o CMakeFiles/xlua.dir/i64lib.c.o CMakeFiles/xlua.dir/xlua.c.o CMakeFiles/xlua.dir/memory_leak_checker.c.o CMakeFiles/xlua.dir/lua-rapidjson/source/rapidjson.cpp.o CMakeFiles/xlua.dir/lua-protobuf/pb.c.o CMakeFiles/xlua.dir/lpeg/lpcap.c.o CMakeFiles/xlua.dir/lpeg/lpcode.c.o CMakeFiles/xlua.dir/lpeg/lpprint.c.o CMakeFiles/xlua.dir/lpeg/lptree.c.o CMakeFiles/xlua.dir/lpeg/lpvm.c.o CMakeFiles/xlua.dir/ffi/parser.c.o CMakeFiles/xlua.dir/ffi/ctype.c.o CMakeFiles/xlua.dir/ffi/ffi.c.o
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -fexceptions
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
-  LINK_LIBRARIES = -lm -lm "E:/Tools/SDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a"
+  LINK_LIBRARIES = -lm -lm "F:/AndroidSDK/ndk/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_static.a"
   OBJECT_DIR = CMakeFiles\xlua.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -528,7 +528,7 @@ build libxlua.so: CXX_SHARED_LIBRARY_LINKER__xlua CMakeFiles/xlua.dir/lua-5.3.5/
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\build_v7a && E:\Tools\SDK\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\build_v7a && F:\AndroidSDK\cmake\3.6.4111459\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -537,7 +537,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\004\Desktop\Framework\build_xlua_with_libs\build\build_v7a && E:\Tools\SDK\cmake\3.6.4111459\bin\cmake.exe -HC:\Users\004\Desktop\Framework\build_xlua_with_libs\build -BC:\Users\004\Desktop\Framework\build_xlua_with_libs\build\build_v7a"
+  COMMAND = cmd.exe /C "cd /D F:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\build_v7a && F:\AndroidSDK\cmake\3.6.4111459\bin\cmake.exe -HF:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build -BF:\Unity\XLuaLearn\XluaLearn\build_xlua_with_libs\build\build_v7a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -572,13 +572,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../cmake/android.windows.toolchain.cmake ../lua-5.3.5/src/luaconf.h.in CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../cmake/android.windows.toolchain.cmake ../lua-5.3.5/src/luaconf.h.in CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../cmake/android.windows.toolchain.cmake ../lua-5.3.5/src/luaconf.h.in CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake E$:/Tools/SDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake: phony
+build ../CMakeLists.txt ../cmake/android.windows.toolchain.cmake ../lua-5.3.5/src/luaconf.h.in CMakeCache.txt CMakeFiles/3.6.0-rc2/CMakeCCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeCXXCompiler.cmake CMakeFiles/3.6.0-rc2/CMakeSystem.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompiler.cmake.in F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompiler.cmake.in F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCXXCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompileFeatures.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineCompilerABI.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeFindBinUtils.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeGenericSystem.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeParseImplicitLinkInfo.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystem.cmake.in F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCXXCompiler.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeTestCompilerCommon.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-C.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang-CXX.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/Clang.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Compiler/GNU.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Internal/FeatureTesting.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Android.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/Linux.cmake F$:/AndroidSDK/cmake/3.6.4111459/share/cmake-3.6/Modules/Platform/UnixPaths.cmake: phony
 
 #############################################
 # Clean all the built files.

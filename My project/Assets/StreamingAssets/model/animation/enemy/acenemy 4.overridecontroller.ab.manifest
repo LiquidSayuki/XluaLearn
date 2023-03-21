@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 506992961
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f63d42889cf710ac2c6c6ac0465d09e2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e833a319b3af44f48d4b2e90240e55df
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 221
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/Enemy/AcEnemy 4.overrideController
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/acenemy
+  0.controller.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/deadenemy
+  0.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/deadenemy
+  4.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/hitenemy
+  0.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/hitenemy
+  4.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/runenemy
+  0.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/runenemy
+  4.anim.ab

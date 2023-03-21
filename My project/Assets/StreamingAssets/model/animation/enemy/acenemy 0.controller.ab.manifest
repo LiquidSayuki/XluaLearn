@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 348769689
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7d3b853bd5d520435520539c9bf6e7c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bbfaa0f72a86ec3f92b1fc3129632085
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/Enemy/AcEnemy 0.controller
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/deadenemy
+  0.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/hitenemy
+  0.anim.ab
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/model/animation/enemy/runenemy
+  0.anim.ab

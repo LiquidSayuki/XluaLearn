@@ -1,17 +1,52 @@
+local player = {}
+player.speed = 4
+player.inputXAxis = nil
+player.inputYAxis = nil
+player.mousePos = nil
+player.sprite_renderer = nil
+player.animator = nil
+
 function Init()
 end
 
-function Update()
-	if Input.GetKey(KeyCode.W) then
-		self.transform:Translate(Vector3(0,1,0) * Time.deltaTime * 5)
-	end
-	if Input.GetKey(KeyCode.S) then
-		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * 5)
-	end
+function OnShow()
+	Log.Info("Player Show")
+
+	player.animator = self.transform:GetComponent("Animator")
+	player.sprite_renderer = self.transform:GetComponent("SpriteRenderer")
+
+
+	self.transform.localPosition = Vector3(0,0,0)
 end
 
-function OnShow()
-	self.transform.localPosition = Vector3(0,0,0)
+function Update()
+
+
+--[[	if Input.GetKey(KeyCode.W) then
+		self.transform:Translate(Vector3(0,1,0) * Time.deltaTime * speed)
+	end
+	if Input.GetKey(KeyCode.S) then
+		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * speed)
+	end
+	if Input.GetKey(KeyCode.A) then
+		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * speed)
+	end
+	if Input.GetKey(KeyCode.D) then
+		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * speed)
+	end--]]
+end
+
+function FixedUpdate()
+	-- 移动放在FixedUpdate中才能防抖
+	player.mousePos = Engine.Camera.main:ScreenToWorldPoint(Input.mousePosition)
+	player.sprite_renderer.flipX = player.mousePos.x < self.transform.position.x
+
+
+	player.inputYAxis = Input.GetAxis("Vertical")
+	player.inputXAxis = Input.GetAxis("Horizontal")
+
+	local inputVec = Vector3(player.inputXAxis,player.inputYAxis,0).normalized
+	self.transform:Translate(inputVec * (Time.deltaTime * player.speed))
 end
 
 function OnHide()

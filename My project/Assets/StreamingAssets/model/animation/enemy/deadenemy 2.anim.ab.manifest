@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 4093707044
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7dea5ee3ea8fa7777310734af3b9323a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e0d404a68f67b148edfad1f0ecd29fe
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/Enemy/DeadEnemy 2.anim
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  2.png.ab

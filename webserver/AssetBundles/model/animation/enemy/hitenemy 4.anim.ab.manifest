@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3634960412
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 90a076c50f7d050c951ef4e1e6235cab
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8e0d404a68f67b148edfad1f0ecd29fe
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/BuildResources/Model/Animation/Enemy/HitEnemy 4.anim
+Dependencies:
+- F:/Unity/XLuaLearn/XluaLearn/My project/Assets/StreamingAssets/sprite/enemy/enemy
+  4.png.ab

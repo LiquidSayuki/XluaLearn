@@ -2,12 +2,12 @@
 {
 	"buildFiles" : 
 	[
-		"C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/CMakeLists.txt"
+		"F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/CMakeLists.txt"
 	],
 	"cFileExtensions" : [ "c" ],
 	"cleanCommands" : 
 	[
-		"E:\\Tools\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\004\\Desktop\\Framework\\build_xlua_with_libs\\build\\build_android_x86 --target clean"
+		"F:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\Unity\\XLuaLearn\\XluaLearn\\build_xlua_with_libs\\build\\build_android_x86 --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -16,375 +16,375 @@
 		{
 			"abi" : "x86",
 			"artifactName" : "xlua",
-			"buildCommand" : "E:\\Tools\\SDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\004\\Desktop\\Framework\\build_xlua_with_libs\\build\\build_android_x86 --target xlua",
+			"buildCommand" : "F:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\Unity\\XLuaLearn\\XluaLearn\\build_xlua_with_libs\\build\\build_android_x86 --target xlua",
 			"buildType" : "relase",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lapi.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lapi.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lauxlib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lauxlib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lbaselib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lbaselib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lbitlib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lbitlib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lcode.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lcode.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lcorolib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lcorolib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lctype.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lctype.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ldblib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ldblib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ldebug.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ldebug.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ldo.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ldo.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ldump.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ldump.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lfunc.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lfunc.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lgc.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lgc.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/linit.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/linit.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/liolib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/liolib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/llex.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/llex.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lmathlib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lmathlib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lmem.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lmem.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/loadlib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/loadlib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lobject.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lobject.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lopcodes.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lopcodes.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/loslib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/loslib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lparser.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lparser.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lstate.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lstate.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lstring.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lstring.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lstrlib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lstrlib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ltable.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ltable.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ltablib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ltablib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/ltm.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/ltm.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lundump.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lundump.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lutf8lib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lutf8lib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lvm.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lvm.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-5.3.5/src/lzio.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-5.3.5/src/lzio.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/auxiliar.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/auxiliar.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/buffer.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/buffer.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/except.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/except.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/inet.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/inet.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/io.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/io.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/luasocket.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/luasocket.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/mime.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/mime.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/options.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/options.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/select.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/select.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/tcp.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/tcp.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/timeout.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/timeout.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/udp.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/udp.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/luasocket/usocket.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_COMPAT_APIINTCASTS -DLUA_LIB -D_CRT_SECURE_NO_WARNINGS -D_WINSOCK_DEPRECATED_NO_WARNINGS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/luasocket/usocket.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/i64lib.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/i64lib.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/xlua.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/xlua.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/memory_leak_checker.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/memory_leak_checker.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86  -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi -isystem E:\\Tools\\SDK\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Tools\\SDK\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem E:\\Tools\\SDK\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -fexceptions -fPIC    -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-rapidjson/source/rapidjson.cpp",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86  -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi -isystem F:\\AndroidSDK\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem F:\\AndroidSDK\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem F:\\AndroidSDK\\ndk\\android-ndk-r10e\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -std=c++11 -fexceptions -fPIC    -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-rapidjson/source/rapidjson.cpp",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lua-protobuf/pb.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lua-protobuf/pb.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lpeg/lpcap.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lpeg/lpcap.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lpeg/lpcode.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lpeg/lpcode.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lpeg/lpprint.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lpeg/lpprint.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lpeg/lptree.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lpeg/lptree.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/lpeg/lpvm.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/lpeg/lpvm.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/ffi/parser.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/ffi/parser.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/ffi/ctype.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/ffi/ctype.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				},
 				
 				{
-					"flags" : "  -target i686-none-linux-android -gcc-toolchain E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=E:/Tools/SDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
-					"src" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/ffi/ffi.c",
-					"workingDirectory" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86"
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=F:/AndroidSDK/ndk/android-ndk-r10e/platforms/android-9/arch-x86 -Dxlua_EXPORTS -DLUA_LIB -I..\\ -I..\\lua-5.3.5\\src -I. -I..\\lua-rapidjson\\include -I..\\lua-protobuf -I..\\lpeg -I..\\ffi  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -fPIC      -c ",
+					"src" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/ffi/ffi.c",
+					"workingDirectory" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86"
 				}
 			],
-			"output" : "C:/Users/004/Desktop/Framework/build_xlua_with_libs/build/build_android_x86/libxlua.so",
-			"toolchain" : "3989436433"
+			"output" : "F:/Unity/XLuaLearn/XluaLearn/build_xlua_with_libs/build/build_android_x86/libxlua.so",
+			"toolchain" : "1682780493"
 		}
 	},
 	"toolchains" : 
 	{
-		"3989436433" : 
+		"1682780493" : 
 		{
-			"cCompilerExecutable" : "E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/llvm-3.6/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "E:/Tools/SDK/ndk/android-ndk-r10e/toolchains/llvm-3.6/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/llvm-3.6/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "F:/AndroidSDK/ndk/android-ndk-r10e/toolchains/llvm-3.6/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

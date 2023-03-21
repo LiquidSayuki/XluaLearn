@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using UnityEditor;
 using UnityEngine;
 using Util;
@@ -29,7 +31,7 @@ public class BuildTool : Editor
         string[] files = Directory.GetFiles(PathUtil.BuildResourcesPath, "*", SearchOption.AllDirectories);
         for (int i=0; i<files.Length; i++)
         {
-            // 忽略meta
+            // 忽略meta文件
             if (files[i].EndsWith(".meta"))
                 continue;
 
@@ -47,10 +49,12 @@ public class BuildTool : Editor
             assetBundle.assetBundleName = bundleName + ".ab";
 
             assetBundleBuilds.Add(assetBundle);
+            // ________________对bundle处理已经完成______________
 
             // 获取assetbundle的依赖，制作成bundle版本号
             List<string> dependencesInfo = GetDependences(assetName);
             // 结构： AssetName|BundleName|dependences|dependences
+           
             string bundleInfo = assetName + "|" + bundleName + ".ab";
             if (dependencesInfo.Count > 0)
             {
@@ -65,8 +69,20 @@ public class BuildTool : Editor
         }
         Directory.CreateDirectory(PathUtil.BundleOutPath);
 
-        //输出bundles，输出bundles dependencies文件
+        //输出bundles，输出filelist文件
         BuildPipeline.BuildAssetBundles(PathUtil.BundleOutPath, assetBundleBuilds.ToArray(), BuildAssetBundleOptions.None, targetPlatform);
+
+        //添加bundle的MD5，以供下载时校验
+        for (int i = 0; i< bundleInfos.Count;i++)
+        {
+            string bundleInfo = bundleInfos[i];
+            string[] info = bundleInfo.Split('|');
+            string bundleName = info[1];
+            string md5 = FileUtil.GetFileMD5(PathUtil.BundleOutPath + "/" + bundleName);
+            bundleInfos[i] += "|" + md5;
+        }
+
+
         File.WriteAllLines(PathUtil.BundleOutPath + "/" + AppConst.FileListName, bundleInfos);
         AssetDatabase.Refresh();
     }
