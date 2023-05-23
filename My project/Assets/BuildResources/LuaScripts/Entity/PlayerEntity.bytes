@@ -21,19 +21,6 @@ end
 
 function Update()
 
-
---[[	if Input.GetKey(KeyCode.W) then
-		self.transform:Translate(Vector3(0,1,0) * Time.deltaTime * speed)
-	end
-	if Input.GetKey(KeyCode.S) then
-		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * speed)
-	end
-	if Input.GetKey(KeyCode.A) then
-		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * speed)
-	end
-	if Input.GetKey(KeyCode.D) then
-		self.transform:Translate(Vector3(0,-1,0) * Time.deltaTime * speed)
-	end--]]
 end
 
 function FixedUpdate()
@@ -46,6 +33,12 @@ function FixedUpdate()
 	player.inputXAxis = Input.GetAxis("Horizontal")
 
 	local inputVec = Vector3(player.inputXAxis,player.inputYAxis,0).normalized
+	if(player.inputXAxis ~= 0 or player.inputYAxis ~=0) then
+		player.animator:SetFloat("Speed",3)
+	else
+		player.animator:SetFloat("Speed",0)
+	end
+
 	self.transform:Translate(inputVec * (Time.deltaTime * player.speed))
 end
 

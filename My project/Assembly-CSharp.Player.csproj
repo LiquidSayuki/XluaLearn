@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Framework\Manager\NetManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Network\NetClient.cs" />
     <Compile Include="Assets\XLua\Examples\08_Hotfix\HotfixTest.cs" />
+    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModuleSpriteWrap.cs" />
     <Compile Include="Assets\XLua\Src\LuaDLL.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\XLua\Gen\DG_Tweening_TweenSettingsExtensionsWrap.cs" />
     <Compile Include="Assets\XLua\Gen\UnityEngine_Vector2Wrap.cs" />
     <Compile Include="Assets\Scripts\Framework\ObjectPool\PoolBase.cs" />
+    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModulePhysics2DWrap.cs" />
     <Compile Include="Assets\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
     <Compile Include="Assets\Scripts\UI\ItemOnDrag.cs" />
     <Compile Include="Assets\Scripts\Framework\DungeonGeneration\WallGenerator.cs" />
@@ -167,6 +169,7 @@
     <Compile Include="Assets\Scripts\Framework\Manager\BulletManager.cs" />
     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModuleAudioWrap.cs" />
     <Compile Include="Assets\XLua\Gen\UnityEngine_ObjectWrap.cs" />
     <Compile Include="Assets\Scripts\Framework\Util\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\UI\LoadingUI.cs" />
@@ -226,6 +229,7 @@
     <Compile Include="Assets\XLua\Gen\DG_Tweening_TweenerWrap.cs" />
     <Compile Include="Assets\Scripts\Entities\Items\Pickable.cs" />
     <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
+    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModulePhysicsWrap.cs" />
     <Compile Include="Assets\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
     <Compile Include="Assets\Scripts\Data\Weapon\WeaponSatisticSO.cs" />
     <Compile Include="Assets\Scripts\Framework\Util\FileUtil.cs" />
@@ -259,10 +263,6 @@
     <Compile Include="Assets\Scripts\Framework\Util\Singleton.cs" />
     <Compile Include="Assets\XLua\Gen\UnityEngine_TextAssetWrap.cs" />
     <Compile Include="Assets\XLua\Gen\WrapPusher.cs" />
-    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModulePhysicsWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModuleSpriteWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModulePhysics2DWrap.cs" />
-    <Compile Include="Assets\XLua\Gen\DG_Tweening_DOTweenModuleAudioWrap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
